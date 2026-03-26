@@ -3,337 +3,123 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+
+  <meta name="title" content="Instance-Enriched Semantic Maps for Visual Language Navigation">
+  <meta name="description" content="A zero-shot VLN framework using instance-level 2.5D semantic maps with MTEFR-based query routing, achieving 96% storage reduction and 23%p+ navigation success improvement over 3D baselines.">
+  <meta name="keywords" content="Visual Language Navigation, Semantic Mapping, 2.5D Representation, Large Language Model, Open-Vocabulary, Embodied AI, Robot Navigation, SEEM, Instance Captioning">
+  <meta name="author" content="Anonymous Authors">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
-  
-  <!-- Open Graph / Facebook -->
+
   <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:site_name" content="IESM-VLN Project Page">
+  <meta property="og:title" content="Instance-Enriched Semantic Maps for Visual Language Navigation">
+  <meta property="og:description" content="A zero-shot VLN framework using instance-level 2.5D semantic maps with MTEFR-based query routing, achieving 96% storage reduction.">
+  <meta property="og:url" content="https://devtechproject123-collab.github.io/iesm_vln">
+  <meta property="og:image" content="https://devtechproject123-collab.github.io/iesm_vln/static/images/fig1.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="article:published_time" content="2026-01-01T00:00:00.000Z">
   <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
+  <meta property="article:tag" content="Visual Language Navigation">
+  <meta property="article:tag" content="Semantic Mapping">
 
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta name="twitter:title" content="Instance-Enriched Semantic Maps for Visual Language Navigation">
+  <meta name="twitter:description" content="A zero-shot VLN framework using instance-level 2.5D semantic maps with MTEFR-based query routing.">
+  <meta name="twitter:image" content="https://devtechproject123-collab.github.io/iesm_vln/static/images/fig1.jpg">
 
-  <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
-  
-  <!-- Additional SEO -->
+  <meta name="citation_title" content="Instance-Enriched Semantic Maps for Visual Language Navigation">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_journal_title" content="Engineering Applications of Artificial Intelligence">
+  <meta name="citation_pdf_url" content="https://devtechproject123-collab.github.io/iesm_vln/static/pdfs/IESM_VLN.pdf">
+
   <meta name="theme-color" content="#2563eb">
-  <meta name="msapplication-TileColor" content="#2563eb">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  
-  <!-- Preconnect for performance -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://ajax.googleapis.com">
   <link rel="preconnect" href="https://documentcloud.adobe.com">
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
+  <title>IESM-VLN | Instance-Enriched Semantic Maps for Visual Language Navigation</title>
 
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>IESM-VLN</title>
-  
-  <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link rel="apple-touch-icon" href="static/images/favicon.ico">
-  
-  <!-- Critical CSS - Load synchronously -->
+
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/index.css">
-  
-  <!-- Non-critical CSS - Load asynchronously -->
+
   <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  
-  <!-- Fallback for browsers that don't support preload -->
+
   <noscript>
     <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
     <link rel="stylesheet" href="static/css/bulma-slider.min.css">
     <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   </noscript>
-  
-  <!-- Fonts - Optimized loading -->
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- Defer non-critical JavaScript -->
+
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
   <script defer src="static/js/fontawesome.all.min.js"></script>
   <script defer src="static/js/bulma-carousel.min.js"></script>
   <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
-  
-  <!-- Structured Data for Academic Papers -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
-    "author": [
-      {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      }
-    ],
-    "datePublished": "2024-01-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
-    },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
-    "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
-  }
-  </script>
-  
-  <!-- Website/Organization Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
-  }
-  </script>
 </head>
 <body>
 
+<button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+  <i class="fas fa-chevron-up"></i>
+</button>
 
-  <!-- Scroll to Top Button -->
-  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
-    <i class="fas fa-chevron-up"></i>
-  </button>
+<main id="main-content">
 
-  <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div>
+<!-- ══════════════════ HERO ══════════════════ -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
 
-  <main id="main-content">
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
+          <h1 class="title is-1 publication-title">
+            Instance-Enriched Semantic Maps<br>for Visual Language Navigation
+          </h1>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              Submitted to <em>Engineering Applications of Artificial Intelligence (EAAI)</em>
+            </span>
+          </div>
+
           <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Instance-Enriched Semantic Maps for Visual Language Navigation</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Name 1<small><sup>*</sup></small></a><sup>1</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Name 2<small><sup>*</sup></small></a><sup>1</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Name 3<small><sup>†</sup></small></a><sup>1</sup>,</span>
-                    <span class="author-block">
-                      <a href="FOURTH AUTHOR PERSONAL LINK" target="_blank">Name 4<small><sup>†</sup></small></a><sup>2</sup>,</span>
-                  </div>
-
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">
-                      <sup>Institute</sup>
-                      <!-- <sup>1</sup>Kyung Hee University, 
-                      <sup>2</sup>Korea Institute of Machinery & Materials,  -->
-                      <br>Submitted to EAAI (Engineering Applications of Artificial Intelligence), 2026
-                    </span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb">
-                      <small><br><sup>*</sup>Indicates Equal Contribution, </small>
-                      <small><sup>†</sup>Corresponding Author</small>
-                    </span>
-                  </div>
-
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <!-- <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span> -->
-                    <span class="link-block">
-                      <a href="static/pdfs/IESM_VLN.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- TODO: Add your youtube link -->
-                    <!-- <span class="link-block">
-                      <a href="https://www.youtube.com/" target="_blank"
-                         class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fab fa-youtube"></i>
-                        </span>
-                        <span>YouTube</span>
-                      </a>
-                    </span> -->
-
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <!-- <span class="link-block">
-                      <a href="static/pdfs/IESM_VLN.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span> -->
-
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- TODO: Update with your arXiv paper ID -->
-                <!-- <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="static/pdfs/IESM_VLN.pdf" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                  <span>Paper</span>
                 </a>
-              </span> -->
+              </span>
+              <span class="link-block">
+                <a href="static/pdfs/PARAM.pdf" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                  <span>Supplementary</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://github.com/YOUR_REPO" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>Code</span>
+                </a>
+              </span>
             </div>
           </div>
         </div>
@@ -342,622 +128,703 @@
   </div>
 </section>
 
-
-<!-- Teaser video-->
+<!-- ══════════════════ TEASER ══════════════════ -->
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body" style="text-align: center;">
-
-      <!-- If you want to put a teaser video instead of image, remove below annotation of video block. -->
-      <!-- TODO: Replace with your teaser video -->
-      <!-- <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata"> -->
-        <!-- TODO: Add your video file path here -->
-        <!-- <source src="static/video/video.mp4" type="video/mp4"> -->
-      <!-- </video> -->
-      
       <img
         src="static/images/fig1.jpg"
         alt="Instance-Enriched Semantic Map overview"
         style="width: 100%; max-width: 1000px; display: block; margin: 0 auto; border-radius: 6px;"
       >
-      
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered" style="margin-top: 1.5rem; font-size: 0.95rem; line-height: 1.5;">
-        <p>
-          Instance-Enriched Semantic Map is an open-vocabulary 2.5D map representation built upon Instance-Level 2.5D Open-Vocabulary Mapping, Room-Level Semantic Segmentation, and Instance Captioning. During navigation, the Multi-Type Expert Fusion Retrieval module interprets diverse natural language queries by routing inference across type-specialized experts and fusing their outputs, enabling robust zero-shot goal instance selection from the enriched map.
+      <h2 class="subtitle has-text-centered" style="margin-top: 1.25rem;">
+        <p class="section-intro" style="margin-bottom: 0;">
+          Instance-Enriched Semantic Map is an open-vocabulary 2.5D map representation built upon
+          Instance-Level 2.5D Open-Vocabulary Mapping, Room-Level Semantic Segmentation, and Instance Captioning.
+          During navigation, the MTEFR module interprets diverse natural language queries by routing inference
+          across type-specialized experts and fusing their outputs, enabling robust zero-shot goal selection.
         </p>
       </h2>
     </div>
   </div>
 </section>
-<!-- End teaser video -->
 
-<!-- Paper abstract -->
+<!-- ══════════════════ ABSTRACT (light) ══════════════════ -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
           <p>
-          Visual Language Navigation (VLN) aims to enable an embodied agent to navigate within complex environments by following natural language instructions. Achieving this goal requires agents to jointly perceive their surroundings and interpret human language.
-          Recent approaches build semantic spatial maps and leverage Large Language Models (LLMs) for reasoning and decision making. Despite these advances, existing VLN systems still suffer from a lack of instance-level object detail and limited robustness to diverse user queries, which hinders reliable navigation in complex indoor environments.
-          To address these limitations, we propose <b>Instance-Enriched Semantic Maps</b>, a unified framework with three key contributions:
-          <br>
-          (1) <b>Instance-level 2.5D mapping</b> that constructs maps from RGB-D observations via open-vocabulary panoptic segmentation, preserving vertical distinctions and reliably capturing small objects, while storing rich semantic attributes such as color, material, and natural language captions enriched with room-level context.
-          <br>
-          (2) <b>Robust query processing</b> via Multi-Type Expert Fusion Retrieval (MTEFR), which dynamically routes queries across type-specialized experts and integrates their outputs through score-level fusion, achieving consistent goal selection across structurally diverse query formulations.
-          <br>
-          (3) <b>Storage-efficient semantic representation</b> that achieves approximately 96% storage reduction compared to 3D scene-graph approaches while preserving sufficient spatial information for precise navigation.
-          <br>
-          The proposed 2.5D representation outperforms the 3D baseline by over 27%p in average pred-normalized AUC across datasets. In navigation experiments, our method achieves an average improvement of over 17%p in object retrieval and 23%p in navigation success compared to the baseline across diverse query types.
-          The project page is available at 
-          <a href="https://devtechproject123-collab.github.io/iesm_vln">
-          https://devtechproject123-collab.github.io/iesm_vln.</a>  
+            Visual Language Navigation (VLN) aims to enable an embodied agent to navigate within complex
+            environments by following natural language instructions. Achieving this goal requires agents to
+            jointly perceive their surroundings and interpret human language. Recent approaches build semantic
+            spatial maps and leverage Large Language Models (LLMs) for reasoning and decision making. Despite
+            these advances, existing VLN systems still suffer from a lack of instance-level object detail and
+            limited robustness to diverse user queries, which hinders reliable navigation in complex indoor
+            environments. To address these limitations, we propose <strong>Instance-Enriched Semantic Maps</strong>,
+            a unified framework with three key contributions:
           </p>
+          <p>
+            <strong>(1) Instance-level 2.5D mapping</strong> that constructs maps from RGB-D observations via
+            open-vocabulary panoptic segmentation, preserving vertical distinctions and reliably capturing small
+            objects, while storing rich semantic attributes including color, material, and natural language captions
+            enriched with room-level context.
+          </p>
+          <p>
+            <strong>(2) Robust query processing via Multi-Type Expert Fusion Retrieval (MTEFR)</strong>, which
+            dynamically routes queries across type-specialized experts and integrates their outputs through
+            score-level fusion, achieving consistent goal selection across structurally diverse query formulations.
+          </p>
+          <p>
+            <strong>(3) Storage-efficient semantic representation</strong> that achieves approximately 96%
+            storage reduction compared to 3D scene-graph approaches while preserving sufficient spatial
+            information for precise navigation.
+          </p>
+          <div class="metrics-row">
+            <div class="metric-badge"><div class="val">27%p+</div><div class="lbl">Pred-norm AUC over 3D baseline</div></div>
+            <div class="metric-badge"><div class="val">17%p+</div><div class="lbl">Object Retrieval Success (O-SR)</div></div>
+            <div class="metric-badge"><div class="val">23%p+</div><div class="lbl">Navigation Success (N-SR)</div></div>
+            <div class="metric-badge"><div class="val">96%</div><div class="lbl">Storage reduction vs. HOV-SG</div></div>
+            <div class="metric-badge"><div class="val">10 MB</div><div class="lbl">Avg. map size (vs. 248 MB)</div></div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End paper abstract -->
 
-<!-- Paper Methodology -->
+<!-- ══════════════════ METHODOLOGY (white) ══════════════════ -->
 <section class="section hero">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Methodology</h2>
-        <div class="content has-text-justified">
-          <img
-            src="static/images/fig2.jpg"
-            alt="System overview"
-            style="width: 100%; max-width: 1000px; display: block; margin: 0 auto; border-radius: 6px;"
-          >
-          <h2 class="subtitle has-text-centered" style="margin-top: 1.5rem; font-size: 0.95rem; line-height: 1.5;">
-            <p>
-              System overview. The proposed framework consists of four main components. The upper section covers Instance-Enriched Semantic Mapping, comprising three stages.            
-            </p>
-          </h2>
-        </div>
-      </div>
+      <div class="column"><h2 class="title is-3">Methodology</h2></div>
     </div>
-    <!-- 4 Module cards -->
-    <div class="columns is-multiline">
+
+    <div style="text-align: center; margin-bottom: 1rem;">
+      <img src="static/images/fig2.jpg" alt="System overview"
+        style="width: 100%; max-width: 960px; display: block; margin: 0 auto; border-radius: 6px;">
+      <p class="fig-caption">
+        <strong>System Overview.</strong>
+        Upper: Instance-Level 2.5D Open-Vocabulary Mapping via SEEM (left),
+        Room-Level Semantic Segmentation via LSD+CLIP (center), Instance Captioning with LLaMA 3.2 Vision + GPT-4 (right).
+        Lower: MTEFR gate LLM assigns weights (ω<sub>O</sub>, ω<sub>R</sub>, ω<sub>D</sub>, ω<sub>A</sub>)
+        over four expert LLMs integrated via score-level fusion.
+      </p>
+    </div>
+
+    <div class="columns is-multiline" style="margin-top: 1.5rem;">
       <div class="column is-half">
         <div class="method-card">
           <div class="card-tag">Module 1 · Sec. 3.1</div>
           <h4>Instance-Level 2.5D Open-Vocabulary Mapping</h4>
-          <p>
-            SEEM panoptic segmentation extracts per-frame instance masks and open-vocabulary embeddings
-            from RGB-D inputs. Candidate instances are associated with accumulated entries via geometric
-            and semantic matching. Matched instances are fused by mask OR and weighted-average embedding
-            update. A secondary fusion pass enforces global consistency by merging long-range duplicates.
-            Each grid cell of the final 2.5D map stores a list of instance indices — enabling multi-occupancy
-            to preserve vertical distinctions that 2D projections collapse.
-          </p>
+          <p>SEEM panoptic segmentation extracts per-frame instance masks and open-vocabulary embeddings from RGB-D inputs.
+          Candidates are associated via geometric (max-overlap, δ<sub>geo</sub>=0.4) and semantic (cosine, δ<sub>sem</sub>=0.85) matching,
+          then fused by mask OR and weighted-average embedding update. A secondary pass merges long-range duplicates.
+          Each grid cell stores a list of instance indices, enabling multi-occupancy to preserve vertical distinctions that 2D projections collapse.</p>
         </div>
       </div>
       <div class="column is-half">
         <div class="method-card">
           <div class="card-tag">Module 2 · Sec. 3.2</div>
           <h4>Room-Level Semantic Segmentation</h4>
-          <p>
-            Structural boundary elements from SEEM instance masks are merged
-            into a binary boundary mask. The Line Segment Detector (LSD) extracts wall-like linear structures
-            using a contrario NFA-based validation. Accepted segments are rasterized and morphologically closed, 
-            followed by connected component analysis to identify individual room regions. CLIP vision-language
-            similarity assigns semantic room-type labels, with majority-vote aggregation per structural region
-            suppressing pixel-level noise for spatially coherent, open-vocabulary room segmentation.
-          </p>
+          <p>Structural boundary elements from SEEM instance masks are merged into a binary boundary mask. LSD extracts
+          wall-like linear structures using NFA-based validation; segments are rasterized and morphologically closed.
+          Connected component analysis identifies room regions; CLIP vision-language similarity assigns semantic room-type
+          labels with majority-vote aggregation per region to suppress pixel-level noise.</p>
         </div>
       </div>
       <div class="column is-half">
         <div class="method-card">
           <div class="card-tag">Module 3 · Sec. 3.3</div>
           <h4>Instance Captioning</h4>
-          <p>
-            For each detected instance, representative keyframes are selected based on mask confidence and
-            observation frequency. LLaMA 3.2 Vision processes each frame–category pair to extract observable
-            attributes in concise two-sentence descriptions. These multi-frame captions are consolidated 
-            by GPT-4 into a compact JSON format, featuring dedicated fields for category, room-type, color, material, and a descriptive caption.
-            This enables rich per-instance semantic content far beyond fixed-dimensional embeddings.
-          </p>
+          <p>Representative keyframes are selected by mask confidence and observation frequency. LLaMA 3.2 Vision extracts
+          color, material, and distinctive features per frame in concise two-sentence descriptions. GPT-4 (5-shot) aggregates
+          multi-frame captions into a compact JSON record — category, room-type, color, material, and a natural language
+          caption — enabling attribute-level retrieval far beyond fixed-dimensional embeddings.</p>
         </div>
       </div>
       <div class="column is-half">
         <div class="method-card">
           <div class="card-tag">Module 4 · Sec. 3.4</div>
           <h4>MTEFR: Multi-Type Expert Fusion Retrieval</h4>
-          <p>
-            MTEFR employs a gate LLM to dynamically allocate weights across four specialized experts—Object, Room, Description, and Abstract—tailored to the specific informational structure of the query. 
-            Each expert generates an independent ranking, which is then integrally fused into a comprehensive unified score. 
-            This fusion process balances multi-expert consensus against single-expert confidence through an automated adaptive scheduling mechanism, ensuring the most relevant candidate is prioritized regardless of query complexity.
-          </p>
+          <p>A gate LLM assigns query-adaptive weights {ω<sub>e</sub>} over four type-specialized expert LLMs
+          (Object, Room, Description, Abstract). Each expert returns a top-κ ranking; rank scores ν<sub>e,d</sub>
+          are fused via weighted-sum S<sup>sum</sup> and peak P combined as
+          U<sub>d</sub> = λP<sub>d</sub> + (1−λ)S<sup>sum</sup><sub>d</sub>,
+          with λ schedule balancing multi-expert consensus and single-expert dominance.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End Methodology -->
 
-<!-- Paper Experiments -->
+<!-- ══════════════════ EXPERIMENTS (light) ══════════════════ -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column"><h2 class="title is-3">Experiments</h2></div>
+    </div>
+
+    <h3 class="title is-5" style="margin-bottom: 0.75rem;">2.5D Open-Vocabulary Mapping</h3>
+    <div style="text-align: center; margin-bottom: 1rem;">
+      <img src="static/images/fig4.jpg" alt="2.5D mapping results on Replica"
+        style="width: 100%; max-width: 960px; display: block; margin: 0 auto; border-radius: 6px;">
+      <p class="fig-caption">
+        <strong>2.5D Mapping.</strong>
+        Left: 3D rendered view. Right: top-down 2.5D semantic map with instances color-coded by category.
+        Colored boxes highlight small objects (bottles, laptops, cups) reliably preserved without being absorbed into neighboring instances.
+      </p>
+    </div>
+    <div class="table-wrap">
+      <p class="table-label">Instance-level semantic labeling (pred-normalized AUC).</p>
+      <table class="results-table">
+        <thead>
+          <tr><th>Dataset</th><th>Method</th><th>top<sub>1</sub></th><th>top<sub>5</sub></th><th>top<sub>50</sub></th><th>AUC↑</th><th>Inst. Diff↓</th></tr>
+        </thead>
+        <tbody>
+          <tr class="section-row"><td colspan="7">Replica — Prediction-normalized</td></tr>
+          <tr><td>Replica</td><td>HOV-SG (3D)</td><td>0.001</td><td>0.006</td><td>0.098</td><td>0.093</td><td>86.6</td></tr>
+          <tr class="ours"><td>Replica</td><td>Ours (2.5D)</td><td>0.172</td><td>0.295</td><td>0.371</td><td><strong>0.356</strong></td><td><strong>2.6</strong></td></tr>
+          <tr class="section-row"><td colspan="7">HM3DSem — Prediction-normalized</td></tr>
+          <tr><td>HM3DSem</td><td>HOV-SG (3D)</td><td>0.000</td><td>0.000</td><td>0.006</td><td>0.085</td><td>417.6</td></tr>
+          <tr class="ours"><td>HM3DSem</td><td>Ours (2.5D)</td><td>0.081</td><td>0.179</td><td>0.291</td><td><strong>0.371</strong></td><td><strong>67.4</strong></td></tr>
+        </tbody>
+      </table>
+      <p class="table-note">Only instances with IoU &gt; 50% are considered matched pairs.</p>
+    </div>
+
+    <h3 class="title is-5" style="margin: 2.5rem 0 0.75rem;">Room Semantic Segmentation</h3>
+    <div style="display: flex; justify-content: center; gap: 1.25rem; flex-wrap: wrap; margin-bottom: 0.5rem;">
+      <img src="static/images/fig6_1.jpg" alt="Room segmentation scene 1"
+        style="width: 48%; min-width: 260px; border-radius: 6px; display: block;">
+      <img src="static/images/fig6_2.jpg" alt="Room segmentation scene 2"
+        style="width: 48%; min-width: 260px; border-radius: 6px; display: block;">
+    </div>
+    <p class="fig-caption"><strong>Room Segmentation (MP3D).</strong>
+      Top row: colorized top-down map, predicted instance map, region segmentation. Bottom row: GT, CLIP baseline, proposed method.</p>
+    <div class="table-wrap" style="margin-top: 1.25rem;">
+      <p class="table-label">Room segmentation on MP3D.</p>
+      <table class="results-table">
+        <thead><tr><th>Method</th><th>Acc</th><th>mAcc</th><th>mIoU</th></tr></thead>
+        <tbody>
+          <tr><td>CLIP (baseline)</td><td>0.73</td><td>0.72</td><td>0.53</td></tr>
+          <tr class="ours"><td>Ours</td><td><strong>0.89</strong></td><td><strong>0.86</strong></td><td><strong>0.75</strong></td></tr>
+        </tbody>
+      </table>
+      <p class="table-note">+16%p Acc · +14%p mAcc · +22%p mIoU over CLIP-only pixel-wise classification.</p>
+    </div>
+
+    <h3 class="title is-5" style="margin: 2.5rem 0 0.75rem;">Navigation Evaluation</h3>
+    <div class="table-wrap">
+      <p class="table-label">Object Retrieval (O-SR %) and Navigation Success (N-SR %) on HM3DSem — 250 trials / query type.</p>
+      <table class="results-table">
+        <thead>
+          <tr>
+            <th rowspan="2">Method</th>
+            <th colspan="2">(o)</th><th colspan="2">(o,r)</th>
+            <th colspan="2">(o,d)</th><th colspan="2">(o,r,d)</th>
+            <th colspan="2">(a,r,d)</th>
+          </tr>
+          <tr>
+            <th>O-SR</th><th>N-SR</th><th>O-SR</th><th>N-SR</th>
+            <th>O-SR</th><th>N-SR</th><th>O-SR</th><th>N-SR</th>
+            <th>O-SR</th><th>N-SR</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>VLMaps</td><td>—</td><td>12.00</td><td>—</td><td>6.00</td><td>—</td><td>4.00</td><td>—</td><td>8.00</td><td>—</td><td>2.00</td></tr>
+          <tr><td>HOV-SG</td><td>40.00</td><td>15.00</td><td>8.00</td><td>18.18</td><td>10.00</td><td>23.07</td><td>8.00</td><td>18.18</td><td>2.00</td><td>0.00</td></tr>
+          <tr><td>HOV-SG (w/ desc.)</td><td>42.00</td><td>19.05</td><td>16.00</td><td>25.47</td><td>14.00</td><td>21.05</td><td>10.00</td><td>23.07</td><td>2.00</td><td>0.00</td></tr>
+          <tr class="ours"><td>Ours (Full+MTEFR)</td><td><strong>70.00</strong></td><td><strong>38.57</strong></td><td><strong>26.00</strong></td><td><strong>42.31</strong></td><td><strong>22.00</strong></td><td><strong>40.91</strong></td><td><strong>22.00</strong></td><td><strong>40.91</strong></td><td><strong>14.00</strong></td><td><strong>35.71</strong></td></tr>
+          <tr><td>Ours (Full+SPR)</td><td>58.00</td><td>34.48</td><td>26.00</td><td>38.46</td><td>16.00</td><td>43.75</td><td>18.00</td><td>44.44</td><td>6.00</td><td>52.00</td></tr>
+          <tr><td>Ours (Obj.)</td><td>58.00</td><td>36.21</td><td>24.00</td><td>41.67</td><td>12.00</td><td>50.00</td><td>18.00</td><td>44.44</td><td>4.00</td><td>48.00</td></tr>
+          <tr><td>Ours (Obj.+Desc.)</td><td>60.00</td><td>35.00</td><td>24.00</td><td>45.83</td><td>16.00</td><td>43.75</td><td>18.00</td><td>44.44</td><td>6.00</td><td>52.00</td></tr>
+          <tr><td>Ours (Obj.+Room)</td><td>60.00</td><td>38.33</td><td>26.00</td><td>46.15</td><td>14.00</td><td>48.22</td><td>14.00</td><td>50.00</td><td>8.00</td><td>37.50</td></tr>
+        </tbody>
+      </table>
+      <p class="table-note">N-SR computed over retrieval-successful trials only.
+        Query types: (o) object-only · (o,r) +room · (o,d) +description · (o,r,d) all explicit · (a,r,d) abstract.
+        VLMaps excluded from O-SR (no instance-level identity).</p>
+    </div>
+
+    <h3 class="title is-5" style="margin: 2.5rem 0 0.75rem;">Storage Cost</h3>
+    <div class="table-wrap">
+      <p class="table-label">Storage comparison on HM3DSem (MB).</p>
+      <table class="results-table">
+        <thead>
+          <tr><th>Dim.</th><th>Method</th><th>00824</th><th>00829</th><th>00862</th><th>00873</th><th>00890</th><th>Avg.</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>3D</td><td>HOV-SG</td><td>254</td><td>342</td><td>190</td><td>263</td><td>187</td><td>248</td></tr>
+          <tr><td>2D</td><td>VLMaps</td><td>186</td><td>99</td><td>179</td><td>68</td><td>57</td><td>118</td></tr>
+          <tr class="ours"><td>2.5D</td><td>Ours</td><td><strong>11</strong></td><td><strong>10</strong></td><td><strong>13</strong></td><td><strong>9</strong></td><td><strong>9</strong></td><td><strong>10</strong></td></tr>
+        </tbody>
+      </table>
+      <p class="table-note">~96% reduction vs. HOV-SG · ~92% vs. VLMaps. Multi-floor scenes: first floor only.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ HYPERPARAMETERS (white) ══════════════════ -->
 <section class="section hero">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Experiments</h2>
-        <div class="content has-text-justified">
-          <h3 class="title is-5" style="margin-bottom: 0.75rem;">4.1. Instance-Level 2.5D Mapping</h3>
-          <img
-          src="static/images/fig4.jpg"
-          alt="2.5D open-vocabulary mapping results"
-          style="width: 100%; max-width: 1000px; display: block; margin: 0 auto; border-radius: 6px;"
-          >
-          <h2 class="subtitle has-text-centered" style="margin-top: 1.5rem; font-size: 0.95rem; line-height: 1.5;">
-            <p>
-              Instance-level 2.5D open-vocabulary mapping results on two scenes from the Replica dataset.            </p>
-          </h2>
-          <div class="table-wrap">
-              <p style="font-weight: 700; font-size: 0.88rem; margin-bottom: 0.4rem;">Table 1. Instance-level semantic labeling (pred-normalized AUC).</p>
-              <table class="results-table">
-                <thead>
-                  <tr><th>Dataset</th><th>Method</th><th>top₁</th><th>top₅</th><th>top₅₀</th><th>AUC↑</th><th>Inst. Diff↓</th></tr>
-                </thead>
-                <tbody>
-                  <tr class="section-row"><td colspan="7">Replica — Prediction-normalized</td></tr>
-                  <tr><td>Replica</td><td>HOV-SG (3D)</td><td>0.001</td><td>0.006</td><td>0.098</td><td>0.093</td><td>86.6</td></tr>
-                  <tr class="ours"><td>Replica</td><td>Ours (2.5D)</td><td>0.172</td><td>0.295</td><td>0.371</td><td><strong>0.356</strong></td><td><strong>2.6</strong></td></tr>
-                  <tr class="section-row"><td colspan="7">HM3DSem — Prediction-normalized</td></tr>
-                  <tr><td>HM3DSem</td><td>HOV-SG (3D)</td><td>0.000</td><td>0.000</td><td>0.006</td><td>0.085</td><td>417.6</td></tr>
-                  <tr class="ours"><td>HM3DSem</td><td>Ours (2.5D)</td><td>0.081</td><td>0.179</td><td>0.291</td><td><strong>0.371</strong></td><td><strong>67.4</strong></td></tr>
-                </tbody>
-              </table>
-              <p class="table-note">Only instances with IoU > 50% are considered matched pairs.</p>
-          </div>
-        </div>
-        <div class="content has-text-justified">
-          <h3 class="title is-5" style="margin-bottom: 0.75rem;">4.2. Room Semantic Segmentation</h3>
-          <div style="display: flex; justify-content: center; gap: 20px; width: 100%; max-width: 1200px; margin: 0 auto;">
-            <img
-              src="static/images/fig6_1.jpg"
-              alt="Room segmentation results - Case 1"
-              style="width: 48%; max-width: 1000px; display: block; border-radius: 6px;"
-            >
-            <img
-              src="static/images/fig6_2.jpg"
-              alt="Room segmentation results - Case 2"
-              style="width: 48%; max-width: 1000px; display: block; border-radius: 6px;"
-            >
-            
-          </div>
-          <h2 class="subtitle has-text-centered" style="margin-top: 1.5rem; font-size: 0.95rem; line-height: 1.5;">
-            <p>
-              Room segmentation results on two scenes from the MP3D dataset.           </p>
-          </h2>
-          <div class="table-wrap">
-            <p style="font-weight: 700; font-size: 0.88rem; margin-bottom: 0.4rem;">Table 4. Room segmentation on MP3D.</p>
-            <table class="results-table">
-              <thead>
-                <tr><th>Method</th><th>Acc</th><th>mAcc</th><th>mIoU</th></tr>
-              </thead>
-              <tbody>
-                <tr><td>CLIP (baseline)</td><td>0.73</td><td>0.72</td><td>0.53</td></tr>
-                <tr class="ours"><td>Ours</td><td><strong>0.89</strong></td><td><strong>0.86</strong></td><td><strong>0.75</strong></td></tr>
-              </tbody>
-            </table>
-            <p class="table-note">+16%p Acc, +14%p mAcc, +22%p mIoU over CLIP-only pixel-wise classification.</p>
-          </div>
-        </div>
-        <div class="content has-text-justified">
-          <h3 class="title is-5" style="margin-bottom: 0.75rem;">4.3. Navigation Evaluation</h3>
-          <div class="table-wrap">
-            <p style="font-weight: 700; font-size: 0.88rem; margin-bottom: 0.4rem;">
-              Table 5. Object Retrieval (O-SR %) and Navigation Success (N-SR %) on HM3DSem — 250 trials / query type.
-            </p>
-            <table class="results-table">
-              <thead>
-                <tr>
-                  <th rowspan="2">Method</th>
-                  <th colspan="2">(o)</th>
-                  <th colspan="2">(o,r)</th>
-                  <th colspan="2">(o,d)</th>
-                  <th colspan="2">(o,r,d)</th>
-                  <th colspan="2">(a,r,d)</th>
-                </tr>
-                <tr>
-                  <th>O-SR</th><th>N-SR</th>
-                  <th>O-SR</th><th>N-SR</th>
-                  <th>O-SR</th><th>N-SR</th>
-                  <th>O-SR</th><th>N-SR</th>
-                  <th>O-SR</th><th>N-SR</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr><td>VLMaps</td><td>—</td><td>12.00</td><td>—</td><td>6.00</td><td>—</td><td>4.00</td><td>—</td><td>8.00</td><td>—</td><td>2.00</td></tr>
-                <tr><td>HOV-SG</td><td>40.00</td><td>15.00</td><td>8.00</td><td>18.18</td><td>10.00</td><td>23.07</td><td>8.00</td><td>18.18</td><td>2.00</td><td>0.00</td></tr>
-                <tr><td>HOV-SG (w/ desc.)</td><td>42.00</td><td>19.05</td><td>16.00</td><td>25.47</td><td>14.00</td><td>21.05</td><td>10.00</td><td>23.07</td><td>2.00</td><td>0.00</td></tr>
-                <tr class="ours"><td>Ours (Full+MTEFR)</td><td><strong>70.00</strong></td><td><strong>38.57</strong></td><td><strong>26.00</strong></td><td><strong>42.31</strong></td><td><strong>22.00</strong></td><td><strong>40.91</strong></td><td><strong>22.00</strong></td><td><strong>40.91</strong></td><td><strong>14.00</strong></td><td><strong>35.71</strong></td></tr>
-                <tr><td>Ours (Full+SPR)</td><td>58.00</td><td>34.48</td><td>26.00</td><td>38.46</td><td>16.00</td><td>43.75</td><td>18.00</td><td>44.44</td><td>6.00</td><td>52.00</td></tr>
-                <tr><td>Ours (Obj.)</td><td>58.00</td><td>36.21</td><td>24.00</td><td>41.67</td><td>12.00</td><td>50.00</td><td>18.00</td><td>44.44</td><td>4.00</td><td>48.00</td></tr>
-                <tr><td>Ours (Obj.+Desc.)</td><td>60.00</td><td>35.00</td><td>24.00</td><td>45.83</td><td>16.00</td><td>43.75</td><td>18.00</td><td>44.44</td><td>6.00</td><td>52.00</td></tr>
-                <tr><td>Ours (Obj.+Room)</td><td>60.00</td><td>38.33</td><td>26.00</td><td>46.15</td><td>14.00</td><td>48.22</td><td>14.00</td><td>50.00</td><td>8.00</td><td>37.50</td></tr>
-              </tbody>
-            </table>
-            <p class="table-note">
-              N-SR is computed over retrieval-successful trials only.
-              Query types: (o) object-only · (o,r) +room · (o,d) +description · (o,r,d) all explicit · (a,r,d) abstract+room+desc.
-              VLMaps excluded from O-SR (no instance-level identity).
-            </p>
-          </div>
-        </div>
-        <div class="content has-text-justified">
-          <h3 class="title is-5" style="margin-bottom: 0.75rem;">4.4. Storage Cost</h3>
-          <div class="table-wrap">
-            <p style="font-weight: 700; font-size: 0.88rem; margin-bottom: 0.4rem;">Table 6. Storage comparison on HM3DSem (MB).</p>
-            <table class="results-table">
-              <thead>
-                <tr><th>Dim.</th><th>Method</th><th>00824</th><th>00829</th><th>00862</th><th>00873</th><th>00890</th><th>Avg.</th></tr>
-              </thead>
-              <tbody>
-                <tr><td>3D</td><td>HOV-SG</td><td>248</td><td>254</td><td>342</td><td>190</td><td>263</td><td>248</td></tr>
-                <tr><td>2D</td><td>VLMaps</td><td>118</td><td>186</td><td>99</td><td>179</td><td>68</td><td>118</td></tr>
-                <tr class="ours"><td>2.5D</td><td>Ours</td><td><strong>10</strong></td><td><strong>11</strong></td><td><strong>10</strong></td><td><strong>13</strong></td><td><strong>9</strong></td><td><strong>10</strong></td></tr>
-              </tbody>
-            </table>
-            <p class="table-note">~96% reduction vs. HOV-SG · ~92% reduction vs. VLMaps. Multi-floor scenes (00862, 00873, 00890): first floor only.</p>
-          </div>
-        </div>
-      </div>
+      <div class="column"><h2 class="title is-3">Hyperparameters</h2></div>
+    </div>
+    <div class="table-wrap">
+      <table class="hp-table">
+        <thead>
+          <tr>
+            <th>Dataset</th>
+            <th>(h<sub>min</sub>, h<sub>max</sub>)</th>
+            <th>δ<sub>geo</sub></th><th>δ<sub>sem</sub></th>
+            <th>ω<sub>geo</sub></th><th>ω<sub>sem</sub></th>
+            <th>κ</th><th>γ</th><th>μ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>MP3D</td><td>(0.0, 3.0)</td>
+            <td rowspan="3" class="fixed">0.4</td>
+            <td rowspan="3" class="fixed">0.85</td>
+            <td rowspan="3" class="fixed">0.7</td>
+            <td rowspan="3" class="fixed">0.3</td>
+            <td rowspan="3" class="fixed">2</td>
+            <td rowspan="3" class="fixed">0.75</td>
+            <td rowspan="3" class="fixed">16</td>
+          </tr>
+          <tr><td>Replica</td><td>(0.0, 2.0)</td></tr>
+          <tr><td>HM3DSem</td><td>(0.0, 3.0)</td></tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </section>
-<!-- End Experiments -->
 
-<!-- Paper Hyperparameters -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3 has-text-centered">Hyperparameters</h2>
-      <div class="table-wrap">
-        <table class="hp-table">
-          <thead>
-            <tr>
-              <th>Dataset</th>
-              <th>(h<sub>min</sub>, h<sub>max</sub>)</th>
-              <th>δ<sub>geo</sub></th>
-              <th>δ<sub>sem</sub></th>
-              <th>ω<sub>geo</sub></th>
-              <th>ω<sub>sem</sub></th>
-              <th>κ</th>
-              <th>γ</th>
-              <th>μ</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>MP3D</td>
-              <td>(0.0, 3.0)</td>
-              <td rowspan="3" class="fixed">0.4</td>
-              <td rowspan="3" class="fixed">0.85</td>
-              <td rowspan="3" class="fixed">0.7</td>
-              <td rowspan="3" class="fixed">0.3</td>
-              <td rowspan="3" class="fixed">2</td>
-              <td rowspan="3" class="fixed">0.75</td>
-              <td rowspan="3" class="fixed">16</td>
-            </tr>
-            <tr>
-              <td>Replica</td>
-              <td>(0.0, 2.0)</td>
-            </tr>
-            <tr>
-              <td>HM3DSem</td>
-              <td>(0.0, 3.0)</td>
-            </tr>
-          </tbody>
-        </table>
-      </div> 
+<!-- ══════════════════ PROMPT TEMPLATES (light) ══════════════════ -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column"><h2 class="title is-3">Prompt Templates</h2></div>
     </div>
-  </div>
-</section>
-<!-- End Hyperparameters -->
 
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3 has-text-centered">Prompt Templates</h2>
- 
-      <p class="has-text-centered" style="font-size: 0.93rem; color: #374151; margin-bottom: 1.5rem; max-width: 760px; margin-left: auto; margin-right: auto;">
-        The framework uses four prompt categories: LLaMA 3.2 Vision for visual attribute extraction,
-        GPT-4 for caption aggregation, MTEFR gate/expert LLMs for query routing and ranking,
-        and a query generator for evaluation. Complete templates are available via the paper supplementary.
-      </p>
- 
-      <!-- 5-1. LLaMA captioning
-           FIGURE (optional): static/images/fig8.jpg → Fig. 8: LLaMA prompt example
-                              static/images/fig9.jpg → Fig. 9: LLaMA multi-frame output -->
-      <h3 class="title is-5" style="margin-bottom: 0.5rem;">1. Instance Captioning — LLaMA 3.2 Vision</h3>
-      <p style="font-size: 0.87rem; color: #4b5563; margin-bottom: 0.5rem; line-height: 1.6;">
-        Design principles: strict 2-sentence limit, explicit repetition prohibition,
-        focus on color / material / distinctive feature per keyframe image.
-      </p>
-      <div class="prompt-block">
-        <div class="prompt-label">LLaMA 3.2 Vision — User Prompt</div>
+    <p class="section-intro">
+      Four prompt pipelines are used: LLaMA 3.2 Vision for per-keyframe attribute extraction,
+      GPT-4 for multi-frame caption aggregation, GPT-4 for MTEFR gate and expert ranking,
+      and GPT-4 for evaluation query generation.
+      Each message is labeled by its conversation role.
+    </p>
+
+    <!-- ── 1. Instance Captioning ── -->
+    <h3 class="title is-5" style="margin: 0 0 0.3rem;">1. Instance Captioning</h3>
+
+    <p class="prompt-section-title">1-A. Visual Attribute Extraction — LLaMA 3.2 Vision</p>
+    <p class="prompt-intro">
+      Called once per representative keyframe of each instance. The model is given the predicted
+      category label as context and must describe color, material, and one distinctive feature in
+      exactly two sentences with no repetition.
+    </p>
+    <div class="prompt-block">
+      <!-- <div class="prompt-label">LLaMA 3.2 Vision</div> -->
+      <div class="role-turn">
+        <span class="role-chip role-user">User</span>
         <pre>Q: There is one {class_name} in the scene. Describe its color,
    material, and one special feature. Don't repeat any word or
    phrase. Limit your response to 2 sentences maximum. Finish as
    soon as main traits are mentioned. Avoid repeating words,
-   phrases, or patterns.
- 
-A: [model output, e.g.,
-   "The rug is a dark grey, woven, and has a subtle pattern of
-    rounded shapes. It has a soft, plush pile."]</pre>
+   phrases, or patterns.</pre>
       </div>
- 
-      <!-- 5-2. GPT-4 aggregation
-           FIGURE (optional): static/images/fig10.jpg → Fig. 10: GPT-4 system prompt
-                              static/images/fig3.jpg  → Fig. 3: example caption JSON output -->
-      <h3 class="title is-5" style="margin: 1.75rem 0 0.5rem;">2. Caption Aggregation — GPT-4</h3>
-      <p style="font-size: 0.87rem; color: #4b5563; margin-bottom: 0.5rem; line-height: 1.6;">
-        Design principles: few-shot JSON I/O; aggregates multi-frame captions into a compact
-        structured record with color, material, and caption fields.
-      </p>
-      <div class="prompt-block">
-        <div class="prompt-label">GPT-4 — System Prompt</div>
-        <pre>System: Identify and describe instances. Input and output must
-be in JSON format. The input field 'captions' contains a list
-of image captions aiming to identify the instance.
+      <div class="role-turn">
+        <span class="role-chip role-assistant">Assistant</span>
+        <pre>The rug is a dark grey, woven, and has a subtle pattern of
+rounded shapes. It has a soft, plush pile.</pre>
+      </div>
+    </div>
+
+    <p class="prompt-section-title">1-B. Caption Aggregation — GPT-4</p>
+    <p class="prompt-intro">
+      Aggregates the list of per-frame LLaMA captions for one instance into a single compact JSON record.
+      Five in-context examples (bed, sofa, curtain, chest_of_drawers, sink) are prepended as few-shot turns
+      before the actual instance input.
+    </p>
+    <div class="prompt-block">
+      <!-- <div class="prompt-label">GPT-4 — 5-Shot Caption Aggregation</div> -->
+      <div class="role-turn">
+        <span class="role-chip role-system">System</span>
+        <pre>Identify and describe instances. Input and output must be in JSON format.
+The input field 'captions' contains a list of image captions aiming to identify the instance.
 Output 'color' as a visual color of the identified instance.
 Output 'material' making up the identified instance.
-Output 'caption' as a concise description of the identified instance.
- 
-<span class="comment">→ Output format per instance:
+Output 'caption' as a concise description of the identified instance.</pre>
+      </div>
+      <div class="role-turn">
+        <span class="role-chip role-user">User</span>
+        <pre>
 {
-  "category": "...",
-  "room-type": "...",
-  "color": "...",
-  "material": "...",
-  "captions": "..."
-}</span></pre>
+  "category": "sofa",
+  "room": "living room",
+  "captions": [
+    "The sofa is a brown leather couch placed in front of a window,
+     well-maintained and comfortable.",
+    "The sofa is an antique-style couch made of brown leather with
+     a vintage appearance.",
+    "The sofa is a brown leather couch; a doll is sitting on it."
+  ]
+}</pre>
       </div>
- 
-      <!-- 5-3. MTEFR Gate LLM -->
-      <h3 class="title is-5" style="margin: 1.75rem 0 0.5rem;">3. MTEFR Gate LLM (key excerpt)</h3>
-      <p style="font-size: 0.87rem; color: #4b5563; margin-bottom: 0.5rem; line-height: 1.6;">
-        Design principles: explicit signal decomposition into four named dimensions;
-        integer scores [0–4] for interpretable expert weighting; strict JSON output for score fusion.
-      </p>
-      <div class="prompt-block">
-        <div class="prompt-label">Gate LLM — Key Excerpt</div>
-        <pre>Task:
-  1) Analyze signal strength along four dimensions:
-       object   — explicit category / identity cues
-       room     — spatial / room context cues
-       caption  — fine-grained visual attribute cues (color, material)
-       abstract — implicit functional / affordance-based cues
-  2) Return integer scores in [0, 4] for each signal
-  3) Extract optional hints: object_category, room_hint,
-     caption_hint, abstract_hint
- 
-Output: JSON only.
-{
-  "scores": {
-    "object": &lt;int&gt;, "room": &lt;int&gt;,
-    "caption": &lt;int&gt;, "abstract": &lt;int&gt;
-  },
-  "hints": { ... }
-}
-<span class="comment">(full template in supplementary)</span></pre>
+      <div class="role-turn">
+        <span class="role-chip role-assistant">Assistant</span>
+        <pre>{
+  "category": "sofa",
+  "room": "living room",
+  "color": "brown",
+  "material": "leather",
+  "captions": "The well-maintained brown leather couch, with a
+               vintage charm, sits in front of a window."
+}</pre>
       </div>
- 
-      <!-- 5-4. Expert LLMs -->
-      <h3 class="title is-5" style="margin: 1.75rem 0 0.5rem;">4. MTEFR Expert LLMs (shared skeleton)</h3>
-      <p style="font-size: 0.87rem; color: #4b5563; margin-bottom: 0.5rem; line-height: 1.6;">
-        Design principles: shared ranking skeleton; each expert receives a type-specific focus directive
-        restricting attention to its information dimension; JSON output for score fusion.
-      </p>
-      <div class="prompt-block">
-        <div class="prompt-label">Expert LLMs — Shared Skeleton + Focus Directives</div>
-        <pre>Rules:
-  - Rank the provided candidate instances for this expert type
-  - Return exactly top-k unique instance IDs
-  - Use ONLY the provided query and candidate fields
- 
-Output: JSON only.
-{ "ranked_instance_ids": [ &lt;id1&gt;, &lt;id2&gt;, ... ] }
- 
-<span class="comment">--- Type-specific focus directives ---</span>
-Object Expert  : Focus on category and identity matching.
-Room Expert    : Focus on room type compatibility.
-Caption Expert : Focus on fine-grained visual attributes (color, material).
-Abstract Expert: Focus on affordance and functional intent.
- 
-<span class="comment">(full per-expert templates in supplementary)</span></pre>
-      </div>
- 
-      <!-- 5-5. Query generation
-           FIGURE (optional): static/images/fig11.jpg → Fig. 11: example navigation query JSON -->
-      <h3 class="title is-5" style="margin: 1.75rem 0 0.5rem;">5. Evaluation Query Generation</h3>
-      <p style="font-size: 0.87rem; color: #4b5563; margin-bottom: 0.5rem; line-height: 1.6;">
-        Design principles: controlled lexical diversity via predefined closed lists;
-        exact literal token reproduction; type-specific constraints enforcing the complexity spectrum.
-      </p>
-      <div class="prompt-block">
-        <div class="prompt-label">Query Generation — Key Constraints</div>
-        <pre>- Start with ONE verb from: {Find, Look for, Search for, Seek}
-- Attribute clause from: {with, featuring, characterized by, ...}
-- Object and room tokens used EXACTLY as provided
- 
-Type-specific rules:
-  (o)     : object category only — no room mention
-  (o,r)   : must include both object category and room
-  (o,d)   : must include 2+ visual attributes — no room mention
-  (o,r,d) : must include 2+ visual attributes + room
-  (a,r,d) : NO explicit category token in output
-             → use affordance/function-based description + room + attributes
- 
-<span class="comment">(full per-type templates in supplementary)</span></pre>
-      </div>
- 
     </div>
+
+    <!-- ── 2. MTEFR ── -->
+    <h3 class="title is-5" style="margin: 2rem 0 0.3rem;">2. MTEFR</h3>
+
+    <p class="prompt-section-title">2-A. Gate LLM — GPT-4</p>
+    <p class="prompt-intro">
+      Analyzes the input query and outputs integer signal scores [0–4] for four dimensions,
+      plus optional extracted hints, which together determine the expert weights {ω<sub>e</sub>}.
+    </p>
+    <div class="prompt-block">
+      <!-- <div class="prompt-label">GPT-4 — Gate LLM</div> -->
+      <div class="role-turn">
+        <span class="role-chip role-system">System</span>
+        <pre>You are a query signal analyzer for hierarchical object-goal navigation.
+Task:
+1) Analyze which signals are strong in the query: object, room, caption, abstract.
+2) Return integer scores in [0, 4] for each signal.
+3) Extract optional hints:
+   - object_category : canonical object phrase if explicitly/strongly implied, else null
+   - room_hint       : room/location phrase if present, else null
+   - caption_hint    : visual-attribute phrase if present, else null
+   - abstract_hint   : affordance/function phrase if present, else null
+
+Scoring rubric:
+  object   — explicit object noun/category mention strength
+  room     — room/location context strength
+  caption  — concrete visual details (material/color/shape/parts) strength
+  abstract — functional/affordance intent without explicit object strength
+
+Output JSON only. No markdown. No extra text.
+Output schema:
+{
+  "scores": {"object": int, "room": int, "caption": int, "abstract": int},
+  "object_category": string|null,
+  "room_hint"      : string|null,
+  "caption_hint"   : string|null,
+  "abstract_hint"  : string|null
+}</pre>
+      </div>
+      <div class="role-turn">
+        <span class="role-chip role-user">User</span>
+        <pre>Query:
+{query_text}
+
+Return strict JSON only.</pre>
+      </div>
+      <div class="role-turn">
+        <span class="role-chip role-assistant">Assistant</span>
+        <pre>{
+  "scores": {"object": 0, "room": 2, "caption": 3, "abstract": 4},
+  "object_category": null,
+  "room_hint"      : "office",
+  "caption_hint"   : "red",
+  "abstract_hint"  : "seating"
+}</pre>
+      </div>
+    </div>
+
+    <p class="prompt-section-title">2-B. Expert LLMs — GPT-4</p>
+    <p class="prompt-intro">
+      All four experts share the same system skeleton and user template. Each expert receives
+      a type-specific focus directive appended to the system prompt that restricts its reasoning
+      to one information dimension.
+    </p>
+    <div class="prompt-block">
+      <!-- <div class="prompt-label">GPT-4 — Expert LLMs (Shared)</div> -->
+      <div class="role-turn">
+        <span class="role-chip role-system">System</span>
+        <pre>You are a ranking expert in a hierarchical navigation system.
+Rules:
+- Use ONLY the provided query and candidate fields.
+- Return exactly top-{n} unique instance IDs, sorted best to worst.
+- IDs must be chosen from the candidate list only.
+- If confidence is low, still return best possible top-{n}.
+
+Output JSON only. No extra text.
+{ "ranked_instance_ids": [id1, id2, ...] }
+
+<span class="comment">--- Type-specific focus directive (appended per expert) ---</span>
+
+Object Expert:
+  Focus on object identity/category matching.
+  Primary: category/object semantics. Secondary: attribute hints.
+  Do not over-weight room context unless it disambiguates ties.
+
+Room Expert:
+  Focus on room compatibility.
+  Primary: room_hint / query room semantics vs candidate room_cat.
+  Secondary: object plausibility in that room.
+
+Caption Expert:
+  Focus on fine-grained visual attributes.
+  Primary: caption_hint / query visual details vs candidate caption.
+  Prefer candidates with discriminative detail match.
+
+Abstract Expert:
+  Focus on affordance / functional intent.
+  Infer likely object from function-level query semantics.
+  Do not require exact object noun overlap.</pre>
+      </div>
+      <div class="role-turn">
+        <span class="role-chip role-user">User</span>
+        <pre>Query: {query_text}
+
+Candidates (JSON):
+[
+  {"id": 1, "category": "chair", "room_cat": "office",
+   "caption": "A vivid red leather chair with a metal frame."},
+  {"id": 2, "category": "sofa", "room_cat": "living room",
+   "caption": "Light blue velvet sofa with buttoned design."},
+  ...
+]
+
+Return top-{n} ranked instance IDs as JSON only.</pre>
+      </div>
+      <div class="role-turn">
+        <span class="role-chip role-assistant">Assistant</span>
+        <pre>{ "ranked_instance_ids": [1, 3, ...] }</pre>
+      </div>
+    </div>
+
+    <!-- ── 3. Query Generation ── -->
+    <h3 class="title is-5" style="margin: 2rem 0 0.3rem;">3. Evaluation Query Generation</h3>
+
+    <p class="prompt-section-title">Shared Constraints — GPT-4</p>
+    <p class="prompt-intro">
+      Each query is generated from a representative keyframe image with the predicted category and room tokens.
+      Three shared constraint sets apply to all query types; per-type rules enforce the complexity spectrum.
+    </p>
+    <div class="prompt-block">
+      <!-- <div class="prompt-label">GPT-4 — System (All Query Types)</div> -->
+      <div class="role-turn">
+        <span class="role-chip role-system">System</span>
+        <pre>You are a careful vision-language assistant.
+Follow the format strictly. Use ONLY one choice from each provided list.
+Keep EXACT object/room tokens when required.
+Prefer concrete, visually verifiable attributes.
+
+Shared lexical lists:
+  VERB_VARIANTS      = [Find, Look for, Search for, Seek]
+  ATTR_CLAUSE_VARIANTS = [with, featuring, showcasing,
+                          characterized by, sporting]
+  ROOM_PHRASES(rc)   = [in the {rc}, inside the {rc}, within the {rc},
+                        at the {rc}, located in the {rc}, found in the {rc}]
+
+Common sentence rules (all types):
+  - Write EXACTLY ONE complete sentence ending with a period.
+  - No bullet points, markdown, explanations, or prefixes.
+  - Do NOT use quotes or brackets.
+  - Avoid words like "object", "instance", or "image".</pre>
+      </div>
+    </div>
+
+    <p class="prompt-section-title">Type (o) — Object Only</p>
+    <div class="prompt-block">
+      <!-- <div class="prompt-label">GPT-4o-mini — User + Assistant</div> -->
+      <div class="role-turn">
+        <span class="role-chip role-user">User</span>
+        <pre>You are given an image and a target object category.
+
+Target object category (use EXACTLY as given): "{instance_category}"
+
+Task:
+- Generate a short, natural search query that helps find this target.
+- Start with EXACTLY ONE verb from VERB_VARIANTS.
+- Optionally add ONE attribute clause from ATTR_CLAUSE_VARIANTS.
+- Use the object token EXACTLY — no synonyms, no pluralization.
+- Do NOT mention any room or location phrase.
+[+ keyframe image]
+
+Pattern:
+  Find a {instance_category} featuring metal legs.
+  Look for a {instance_category} with a glass top.</pre>
+      </div>
+      <div class="role-turn">
+        <span class="role-chip role-assistant">Assistant</span>
+        <pre>Find a chair featuring a dark wooden frame and a cushioned seat.</pre>
+      </div>
+    </div>
+
+    <p class="prompt-section-title">Type (o,r) — Object + Room</p>
+    <div class="prompt-block">
+      <!-- <div class="prompt-label">GPT-4o-mini — User + Assistant</div> -->
+      <div class="role-turn">
+        <span class="role-chip role-user">User</span>
+        <pre>You are given an image and two target categories.
+
+Object: "{instance_category}"  (use EXACTLY)
+Room:   "{room_category}"      (use EXACTLY — no synonyms, no adjectives)
+
+Task:
+- Include BOTH tokens.
+- Start with EXACTLY ONE verb from VERB_VARIANTS.
+- Include the room using EXACTLY ONE phrase from ROOM_PHRASES.
+[+ keyframe image]
+
+Pattern:
+  Find a {instance_category} inside the {room_category}.
+  Look for a {instance_category} located in the {room_category}.</pre>
+      </div>
+      <div class="role-turn">
+        <span class="role-chip role-assistant">Assistant</span>
+        <pre>Look for a chair located in the office.</pre>
+      </div>
+    </div>
+
+    <p class="prompt-section-title">Type (o,d) — Object + Description</p>
+    <div class="prompt-block">
+      <!-- <div class="prompt-label">GPT-4o-mini — User + Assistant</div> -->
+      <div class="role-turn">
+        <span class="role-chip role-user">User</span>
+        <pre>You are given an image and a target object token.
+
+Object: "{instance_category}"  (use EXACTLY)
+Optional references (from instance captions):
+{reference_text}
+
+Task:
+- Include AT LEAST TWO concrete attributes if visible:
+  (i)  ONE color or material word
+  (ii) ONE distinctive feature that disambiguates among same-category items
+       (e.g., ice maker, sliding doors, brass doorknob, rounded edge,
+        metal legs, glass top, stainless-steel finish, woodgrain texture)
+- Use EXACTLY ONE connector from ATTR_CLAUSE_VARIANTS.
+- Do NOT mention any room or location phrase.
+[+ keyframe image]
+
+Pattern:
+  Find a {instance_category} featuring a stainless steel finish
+  and a built-in water dispenser.</pre>
+      </div>
+      <div class="role-turn">
+        <span class="role-chip role-assistant">Assistant</span>
+        <pre>Find a chair characterized by a vivid red leather surface and a metal frame.</pre>
+      </div>
+    </div>
+
+    <p class="prompt-section-title">Type (o,r,d) — Object + Room + Description</p>
+    <div class="prompt-block">
+      <!-- <div class="prompt-label">GPT-4o-mini — User + Assistant</div> -->
+      <div class="role-turn">
+        <span class="role-chip role-user">User</span>
+        <pre>You are given an image and two tokens.
+
+Object: "{instance_category}"  (use EXACTLY)
+Room:   "{room_category}"      (use EXACTLY)
+Optional references (from instance captions):
+{reference_text}
+
+Task:
+- Include AT LEAST TWO concrete attributes (same rules as (o,d)).
+- Use EXACTLY ONE connector from ATTR_CLAUSE_VARIANTS.
+- Include the room using EXACTLY ONE phrase from ROOM_PHRASES.
+[+ keyframe image]
+
+Pattern:
+  Find a {instance_category} featuring a glossy white finish and
+  sliding doors located in the {room_category}.</pre>
+      </div>
+      <div class="role-turn">
+        <span class="role-chip role-assistant">Assistant</span>
+        <pre>Find a chair characterized by a vivid red leather surface and
+a metal frame found in the office.</pre>
+      </div>
+    </div>
+
+    <p class="prompt-section-title">Type (a,r,d) — Abstract + Room + Description</p>
+    <div class="prompt-block">
+      <!-- <div class="prompt-label">GPT-4o-mini — User + Assistant</div> -->
+      <div class="role-turn">
+        <span class="role-chip role-user">User</span>
+        <pre>You are given an image and a hidden object token.
+
+Hidden object token: "{instance_category}"  (DO NOT output this token)
+Room:               "{room_category}"       (use EXACTLY)
+Optional references (from instance captions):
+{reference_text}
+
+Task:
+- Produce ONE affordance-based query — NO explicit category token in output.
+- Start with EXACTLY ONE verb from VERB_VARIANTS.
+- Include AT LEAST TWO concrete attributes if visible (color/material +
+  distinctive feature).
+- Use EXACTLY ONE connector from ATTR_CLAUSE_VARIANTS.
+- Include the room using EXACTLY ONE phrase from ROOM_PHRASES.
+[+ keyframe image]
+
+Pattern:
+  Find something to keep food cold featuring a stainless steel finish
+  and an ice maker located in the {room_category}.</pre>
+      </div>
+      <div class="role-turn">
+        <span class="role-chip role-assistant">Assistant</span>
+        <pre>Find something to sit on characterized by a vivid red leather surface
+and a metal frame found in the office.</pre>
+      </div>
+    </div>
+
   </div>
 </section>
 
-<!-- Youtube video -->
-<!-- <section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-          
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
+<!-- ══════════════════ BIBTEX (white) ══════════════════ -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <div class="bibtex-header">
+      <h2 class="title">BibTeX</h2>
+      <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+        <i class="fas fa-copy"></i>
+        <span class="copy-text">Copy</span>
+      </button>
     </div>
-  </div>
-</section> -->
-<!-- End youtube video -->
-<!-- <section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column is-four-fifths has-text-centered">
-          <h2 class="title is-3">Video Presentation</h2>
-
-          <div style="max-width: 960px; margin: 0 auto;">
-            <div class="publication-video">
-              <iframe
-                src="https://www.youtube.com/embed/JkaxUblCGz0"
-                frameborder="0"
-                allow="autoplay; encrypted-media"
-                allowfullscreen>
-              </iframe>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-
-<!-- Video carousel -->
-<!-- <section class="hero is-small">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column is-four-fifths has-text-centered">
-          <h2 class="title is-3">Another Carousel</h2>
-
-          <div style="max-width: 960px; margin: 0 auto;">
-            <div class="carousel results-carousel">
-              <div class="item item-video1">
-                <video poster="" id="video1" controls muted loop height="100%" preload="metadata" style="display: block; margin: 0 auto;">
-                  <source src="static/videos/carousel1.mp4" type="video/mp4">
-                </video>
-              </div>
-
-              <div class="item item-video2">
-                <video poster="" id="video2" controls muted loop height="100%" preload="metadata" style="display: block; margin: 0 auto;">
-                  <source src="static/videos/carousel2.mp4" type="video/mp4">
-                </video>
-              </div>
-
-              <div class="item item-video3">
-                <video poster="" id="video3" controls muted loop height="100%" preload="metadata" style="display: block; margin: 0 auto;">
-                  <source src="static/videos/carousel3.mp4" type="video/mp4">
-                </video>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column is-four-fifths has-text-centered">
-          <h2 class="title is-3">Paper</h2>
-    
-          <!-- TODO: Replace with your poster PDF -->
-          <!-- <iframe  src="static/pdfs/IESM_VLN.pdf" width="100%" height="550">
-              </iframe> -->
-            <div style="text-align: center;">
-              <iframe
-                src="static/pdfs/IESM_VLN.pdf#page=1"
-                style="width: 100%; max-width: 900px; aspect-ratio: 210 / 260; border: none; display: block; margin: 0 auto;">
-              </iframe>
-            </div>
-        </div>
-      </div>
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
-      </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Instance-Enriched Semantic Maps for Visual Language Navigation},
-  author={Name 1, Name 2, Name 3, Name 4},
-  journal={Engineering Applications in Artificial Intelligence (EAAI)},
-  year={2026},
-  url={https://your-domain.com/your-project-page}
+    <pre id="bibtex-code"><code>@article{IESM_VLN_2026,
+  title   = {Instance-Enriched Semantic Maps for Visual Language Navigation},
+  author  = {Anonymous Authors},
+  journal = {Engineering Applications of Artificial Intelligence (EAAI)},
+  year    = {2026},
+  url     = {https://devtechproject123-collab.github.io/iesm_vln}
 }</code></pre>
-    </div>
+  </div>
 </section>
-<!--End BibTex citation -->
-  <footer class="footer" style="background-color: #ffffff;">
+
+</main>
+
+<footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
-
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
+            This page was built using the
+            <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>
+            adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>.
           </p>
-
         </div>
       </div>
     </div>
   </div>
 </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</body>
+</html>
