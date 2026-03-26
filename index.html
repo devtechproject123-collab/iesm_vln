@@ -260,7 +260,7 @@
                       <sup>Institute</sup>
                       <!-- <sup>1</sup>Kyung Hee University, 
                       <sup>2</sup>Korea Institute of Machinery & Materials,  -->
-                      <br>Submiteed to EAAI (Engineering Applications of Artificial Intelligence), 2026
+                      <br>Submitted to EAAI (Engineering Applications of Artificial Intelligence), 2026
                     </span>
                     <!-- TODO: Remove this line if no equal contribution -->
                     <span class="eql-cntrb">
@@ -432,8 +432,7 @@
           <p>
             SEEM panoptic segmentation extracts per-frame instance masks and open-vocabulary embeddings
             from RGB-D inputs. Candidate instances are associated with accumulated entries via geometric
-            (max-overlap) and semantic (cosine similarity) matching with thresholds δ<sub>geo</sub>=0.4
-            and δ<sub>sem</sub>=0.85. Matched instances are fused by mask OR and weighted-average embedding
+            and semantic matching. Matched instances are fused by mask OR and weighted-average embedding
             update. A secondary fusion pass enforces global consistency by merging long-range duplicates.
             Each grid cell of the final 2.5D map stores a list of instance indices — enabling multi-occupancy
             to preserve vertical distinctions that 2D projections collapse.
@@ -445,10 +444,10 @@
           <div class="card-tag">Module 2 · Sec. 3.2</div>
           <h4>Room-Level Semantic Segmentation</h4>
           <p>
-            Structural boundary elements (walls, doors, large furniture) from SEEM instance masks are merged
+            Structural boundary elements from SEEM instance masks are merged
             into a binary boundary mask. The Line Segment Detector (LSD) extracts wall-like linear structures
-            using a contrario NFA-based validation. Accepted segments are rasterized and morphologically
-            closed; connected component analysis then identifies individual room regions. CLIP vision-language
+            using a contrario NFA-based validation. Accepted segments are rasterized and morphologically closed, 
+            followed by connected component analysis to identify individual room regions. CLIP vision-language
             similarity assigns semantic room-type labels, with majority-vote aggregation per structural region
             suppressing pixel-level noise for spatially coherent, open-vocabulary room segmentation.
           </p>
@@ -461,9 +460,8 @@
           <p>
             For each detected instance, representative keyframes are selected based on mask confidence and
             observation frequency. LLaMA 3.2 Vision processes each frame–category pair to extract observable
-            attributes (color, material, texture, shape) in concise two-sentence descriptions. GPT-4 then
-            aggregates multi-frame captions into a compact structured representation — a JSON record with
-            key–value fields for category, room-type, color, material, and a natural language caption.
+            attributes in concise two-sentence descriptions. These multi-frame captions are consolidated 
+            by GPT-4 into a compact JSON format, featuring dedicated fields for category, room-type, color, material, and a descriptive caption.
             This enables rich per-instance semantic content far beyond fixed-dimensional embeddings.
           </p>
         </div>
@@ -473,13 +471,9 @@
           <div class="card-tag">Module 4 · Sec. 3.4</div>
           <h4>MTEFR: Multi-Type Expert Fusion Retrieval</h4>
           <p>
-            Natural language queries vary fundamentally in informational structure. MTEFR employs a gate LLM
-            to assign query-adaptive weights {ω<sub>e</sub>} over four type-specialized experts
-            (Object, Room, Description, Abstract). Each expert independently returns a top-κ ranking of
-            candidate instances. Rank scores ν<sub>e,d</sub> = κ − ρ<sub>e,d</sub> + 1 are fused via
-            a weighted-sum score S<sup>sum</sup> and a peak score P, combined as
-            U<sub>d</sub> = λP<sub>d</sub> + (1−λ)S<sup>sum</sup><sub>d</sub> with a λ schedule that
-            balances multi-expert consensus with single-expert dominance.
+            MTEFR employs a gate LLM to dynamically allocate weights across four specialized experts—Object, Room, Description, and Abstract—tailored to the specific informational structure of the query. 
+            Each expert generates an independent ranking, which is then integrally fused into a comprehensive unified score. 
+            This fusion process balances multi-expert consensus against single-expert confidence through an automated adaptive scheduling mechanism, ensuring the most relevant candidate is prioritized regardless of query complexity.
           </p>
         </div>
       </div>
@@ -525,11 +519,19 @@
         </div>
         <div class="content has-text-justified">
           <h3 class="title is-5" style="margin-bottom: 0.75rem;">4.2. Room Semantic Segmentation</h3>
-          <img
-          src="static/images/fig6_1.jpg"
-          alt="Room segmentation results"
-          style="width: 90%; max-width: 1000px; display: block; margin: 0 auto; border-radius: 6px;"
-          >
+          <div style="display: flex; justify-content: center; gap: 20px; width: 100%; max-width: 1200px; margin: 0 auto;">
+            <img
+              src="static/images/fig6_1.jpg"
+              alt="Room segmentation results - Case 1"
+              style="width: 48%; max-width: 1000px; display: block; border-radius: 6px;"
+            >
+            <img
+              src="static/images/fig6_2.jpg"
+              alt="Room segmentation results - Case 2"
+              style="width: 48%; max-width: 1000px; display: block; border-radius: 6px;"
+            >
+            
+          </div>
           <h2 class="subtitle has-text-centered" style="margin-top: 1.5rem; font-size: 0.95rem; line-height: 1.5;">
             <p>
               Room segmentation results on two scenes from the MP3D dataset.           </p>
@@ -550,16 +552,6 @@
         </div>
         <div class="content has-text-justified">
           <h3 class="title is-5" style="margin-bottom: 0.75rem;">4.3. Navigation Evaluation</h3>
-          <img
-          src="static/images/fig7.jpg"
-          alt="Navigation results"
-          style="width: 90%; max-width: 1000px; display: block; margin: 0 auto; border-radius: 6px;"
-          >
-          <h2 class="subtitle has-text-centered" style="margin-top: 1.5rem; font-size: 0.95rem; line-height: 1.5;">
-            <p>
-              Qualitative Navigation Result.
-            </p>
-          </h2>
           <div class="table-wrap">
             <p style="font-weight: 700; font-size: 0.88rem; margin-bottom: 0.4rem;">
               Table 5. Object Retrieval (O-SR %) and Navigation Success (N-SR %) on HM3DSem — 250 trials / query type.
@@ -619,52 +611,198 @@
         </div>
       </div>
     </div>
-
   </div>
 </section>
+<!-- End Experiments -->
 
-<!-- Image carousel -->
+<!-- Paper Hyperparameters -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">Hyperparameters</h2>
+      <div class="table-wrap">
+        <table class="hp-table">
+          <thead>
+            <tr>
+              <th>Dataset</th>
+              <th>(h<sub>min</sub>, h<sub>max</sub>)</th>
+              <th>δ<sub>geo</sub></th>
+              <th>δ<sub>sem</sub></th>
+              <th>ω<sub>geo</sub></th>
+              <th>ω<sub>sem</sub></th>
+              <th>κ</th>
+              <th>γ</th>
+              <th>μ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>MP3D</td>
+              <td>(0.0, 3.0)</td>
+              <td rowspan="3" class="fixed">0.4</td>
+              <td rowspan="3" class="fixed">0.85</td>
+              <td rowspan="3" class="fixed">0.7</td>
+              <td rowspan="3" class="fixed">0.3</td>
+              <td rowspan="3" class="fixed">2</td>
+              <td rowspan="3" class="fixed">0.75</td>
+              <td rowspan="3" class="fixed">16</td>
+            </tr>
+            <tr>
+              <td>Replica</td>
+              <td>(0.0, 2.0)</td>
+            </tr>
+            <tr>
+              <td>HM3DSem</td>
+              <td>(0.0, 3.0)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div> 
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
+<!-- End Hyperparameters -->
 
-
-
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 has-text-centered">Prompt Templates</h2>
+ 
+      <p class="has-text-centered" style="font-size: 0.93rem; color: #374151; margin-bottom: 1.5rem; max-width: 760px; margin-left: auto; margin-right: auto;">
+        The framework uses four prompt categories: LLaMA 3.2 Vision for visual attribute extraction,
+        GPT-4 for caption aggregation, MTEFR gate/expert LLMs for query routing and ranking,
+        and a query generator for evaluation. Complete templates are available via the paper supplementary.
+      </p>
+ 
+      <!-- 5-1. LLaMA captioning
+           FIGURE (optional): static/images/fig8.jpg → Fig. 8: LLaMA prompt example
+                              static/images/fig9.jpg → Fig. 9: LLaMA multi-frame output -->
+      <h3 class="title is-5" style="margin-bottom: 0.5rem;">1. Instance Captioning — LLaMA 3.2 Vision</h3>
+      <p style="font-size: 0.87rem; color: #4b5563; margin-bottom: 0.5rem; line-height: 1.6;">
+        Design principles: strict 2-sentence limit, explicit repetition prohibition,
+        focus on color / material / distinctive feature per keyframe image.
+      </p>
+      <div class="prompt-block">
+        <div class="prompt-label">LLaMA 3.2 Vision — User Prompt</div>
+        <pre>Q: There is one {class_name} in the scene. Describe its color,
+   material, and one special feature. Don't repeat any word or
+   phrase. Limit your response to 2 sentences maximum. Finish as
+   soon as main traits are mentioned. Avoid repeating words,
+   phrases, or patterns.
+ 
+A: [model output, e.g.,
+   "The rug is a dark grey, woven, and has a subtle pattern of
+    rounded shapes. It has a soft, plush pile."]</pre>
+      </div>
+ 
+      <!-- 5-2. GPT-4 aggregation
+           FIGURE (optional): static/images/fig10.jpg → Fig. 10: GPT-4 system prompt
+                              static/images/fig3.jpg  → Fig. 3: example caption JSON output -->
+      <h3 class="title is-5" style="margin: 1.75rem 0 0.5rem;">2. Caption Aggregation — GPT-4</h3>
+      <p style="font-size: 0.87rem; color: #4b5563; margin-bottom: 0.5rem; line-height: 1.6;">
+        Design principles: few-shot JSON I/O; aggregates multi-frame captions into a compact
+        structured record with color, material, and caption fields.
+      </p>
+      <div class="prompt-block">
+        <div class="prompt-label">GPT-4 — System Prompt</div>
+        <pre>System: Identify and describe instances. Input and output must
+be in JSON format. The input field 'captions' contains a list
+of image captions aiming to identify the instance.
+Output 'color' as a visual color of the identified instance.
+Output 'material' making up the identified instance.
+Output 'caption' as a concise description of the identified instance.
+ 
+<span class="comment">→ Output format per instance:
+{
+  "category": "...",
+  "room-type": "...",
+  "color": "...",
+  "material": "...",
+  "captions": "..."
+}</span></pre>
+      </div>
+ 
+      <!-- 5-3. MTEFR Gate LLM -->
+      <h3 class="title is-5" style="margin: 1.75rem 0 0.5rem;">3. MTEFR Gate LLM (key excerpt)</h3>
+      <p style="font-size: 0.87rem; color: #4b5563; margin-bottom: 0.5rem; line-height: 1.6;">
+        Design principles: explicit signal decomposition into four named dimensions;
+        integer scores [0–4] for interpretable expert weighting; strict JSON output for score fusion.
+      </p>
+      <div class="prompt-block">
+        <div class="prompt-label">Gate LLM — Key Excerpt</div>
+        <pre>Task:
+  1) Analyze signal strength along four dimensions:
+       object   — explicit category / identity cues
+       room     — spatial / room context cues
+       caption  — fine-grained visual attribute cues (color, material)
+       abstract — implicit functional / affordance-based cues
+  2) Return integer scores in [0, 4] for each signal
+  3) Extract optional hints: object_category, room_hint,
+     caption_hint, abstract_hint
+ 
+Output: JSON only.
+{
+  "scores": {
+    "object": &lt;int&gt;, "room": &lt;int&gt;,
+    "caption": &lt;int&gt;, "abstract": &lt;int&gt;
+  },
+  "hints": { ... }
+}
+<span class="comment">(full template in supplementary)</span></pre>
+      </div>
+ 
+      <!-- 5-4. Expert LLMs -->
+      <h3 class="title is-5" style="margin: 1.75rem 0 0.5rem;">4. MTEFR Expert LLMs (shared skeleton)</h3>
+      <p style="font-size: 0.87rem; color: #4b5563; margin-bottom: 0.5rem; line-height: 1.6;">
+        Design principles: shared ranking skeleton; each expert receives a type-specific focus directive
+        restricting attention to its information dimension; JSON output for score fusion.
+      </p>
+      <div class="prompt-block">
+        <div class="prompt-label">Expert LLMs — Shared Skeleton + Focus Directives</div>
+        <pre>Rules:
+  - Rank the provided candidate instances for this expert type
+  - Return exactly top-k unique instance IDs
+  - Use ONLY the provided query and candidate fields
+ 
+Output: JSON only.
+{ "ranked_instance_ids": [ &lt;id1&gt;, &lt;id2&gt;, ... ] }
+ 
+<span class="comment">--- Type-specific focus directives ---</span>
+Object Expert  : Focus on category and identity matching.
+Room Expert    : Focus on room type compatibility.
+Caption Expert : Focus on fine-grained visual attributes (color, material).
+Abstract Expert: Focus on affordance and functional intent.
+ 
+<span class="comment">(full per-expert templates in supplementary)</span></pre>
+      </div>
+ 
+      <!-- 5-5. Query generation
+           FIGURE (optional): static/images/fig11.jpg → Fig. 11: example navigation query JSON -->
+      <h3 class="title is-5" style="margin: 1.75rem 0 0.5rem;">5. Evaluation Query Generation</h3>
+      <p style="font-size: 0.87rem; color: #4b5563; margin-bottom: 0.5rem; line-height: 1.6;">
+        Design principles: controlled lexical diversity via predefined closed lists;
+        exact literal token reproduction; type-specific constraints enforcing the complexity spectrum.
+      </p>
+      <div class="prompt-block">
+        <div class="prompt-label">Query Generation — Key Constraints</div>
+        <pre>- Start with ONE verb from: {Find, Look for, Search for, Seek}
+- Attribute clause from: {with, featuring, characterized by, ...}
+- Object and room tokens used EXACTLY as provided
+ 
+Type-specific rules:
+  (o)     : object category only — no room mention
+  (o,r)   : must include both object category and room
+  (o,d)   : must include 2+ visual attributes — no room mention
+  (o,r,d) : must include 2+ visual attributes + room
+  (a,r,d) : NO explicit category token in output
+             → use affordance/function-based description + room + attributes
+ 
+<span class="comment">(full per-type templates in supplementary)</span></pre>
+      </div>
+ 
+    </div>
+  </div>
+</section>
 
 <!-- Youtube video -->
 <!-- <section class="hero is-small is-light">
