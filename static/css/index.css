@@ -731,7 +731,6 @@ a:focus {
   outline-offset: 2px;
 }
 
-
 /* Print styles */
 @media print {
   .more-works-container {
@@ -749,5 +748,66 @@ a:focus {
   }
 }
 
+/* Method card styles */
+.method-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1.4rem 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+.method-card .card-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: #eff6ff;
+  color: #2563eb;
+  border-radius: 4px;
+  padding: 2px 8px;
+  margin-bottom: 0.6rem;
+}
+.method-card h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1e3a5f;
+  margin-bottom: 0.4rem;
+}
+.method-card p { font-size: 0.88rem; color: #4b5563; line-height: 1.6; }
 
-
+/* Table styles */
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+.results-table th {
+  background: #1e3a5f;
+  color: #fff;
+  padding: 0.5rem 0.6rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.78rem;
+}
+.results-table td {
+  padding: 0.4rem 0.6rem;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+  color: #374151;
+}
+.results-table tr.ours td {
+  font-weight: 700;
+  color: #1d4ed8;
+  background: #eff6ff;
+}
+.results-table tr.section-row td {
+  background: #f1f5f9;
+  font-weight: 700;
+  font-size: 0.76rem;
+  color: #374151;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.table-wrap { overflow-x: auto; margin: 1rem 0; }

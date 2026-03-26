@@ -390,7 +390,7 @@
           (2) <b>Robust query processing</b> via Multi-Type Expert Fusion Retrieval (MTEFR), which dynamically routes queries across type-specialized experts and integrates their outputs through score-level fusion, achieving consistent goal selection across structurally diverse query formulations.
           <br>
           (3) <b>Storage-efficient semantic representation</b> that achieves approximately 96% storage reduction compared to 3D scene-graph approaches while preserving sufficient spatial information for precise navigation.
-          </p>
+          <br>
           The proposed 2.5D representation outperforms the 3D baseline by over 27%p in average pred-normalized AUC across datasets. In navigation experiments, our method achieves an average improvement of over 17%p in object retrieval and 23%p in navigation success compared to the baseline across diverse query types.
           The project page is available at 
           <a href="https://devtechproject123-collab.github.io/iesm_vln">
@@ -410,7 +410,6 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Methodology</h2>
         <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper Methodology -->
           <img
             src="static/images/fig2.jpg"
             alt="System overview"
@@ -424,10 +423,205 @@
         </div>
       </div>
     </div>
+    <!-- 4 Module cards -->
+    <div class="columns is-multiline">
+      <div class="column is-half">
+        <div class="method-card">
+          <div class="card-tag">Module 1 · Sec. 3.1</div>
+          <h4>Instance-Level 2.5D Open-Vocabulary Mapping</h4>
+          <p>
+            SEEM panoptic segmentation extracts per-frame instance masks and open-vocabulary embeddings
+            from RGB-D inputs. Candidate instances are associated with accumulated entries via geometric
+            (max-overlap) and semantic (cosine similarity) matching with thresholds δ<sub>geo</sub>=0.4
+            and δ<sub>sem</sub>=0.85. Matched instances are fused by mask OR and weighted-average embedding
+            update. A secondary fusion pass enforces global consistency by merging long-range duplicates.
+            Each grid cell of the final 2.5D map stores a list of instance indices — enabling multi-occupancy
+            to preserve vertical distinctions that 2D projections collapse.
+          </p>
+        </div>
+      </div>
+      <div class="column is-half">
+        <div class="method-card">
+          <div class="card-tag">Module 2 · Sec. 3.2</div>
+          <h4>Room-Level Semantic Segmentation</h4>
+          <p>
+            Structural boundary elements (walls, doors, large furniture) from SEEM instance masks are merged
+            into a binary boundary mask. The Line Segment Detector (LSD) extracts wall-like linear structures
+            using a contrario NFA-based validation. Accepted segments are rasterized and morphologically
+            closed; connected component analysis then identifies individual room regions. CLIP vision-language
+            similarity assigns semantic room-type labels, with majority-vote aggregation per structural region
+            suppressing pixel-level noise for spatially coherent, open-vocabulary room segmentation.
+          </p>
+        </div>
+      </div>
+      <div class="column is-half">
+        <div class="method-card">
+          <div class="card-tag">Module 3 · Sec. 3.3</div>
+          <h4>Instance Captioning</h4>
+          <p>
+            For each detected instance, representative keyframes are selected based on mask confidence and
+            observation frequency. LLaMA 3.2 Vision processes each frame–category pair to extract observable
+            attributes (color, material, texture, shape) in concise two-sentence descriptions. GPT-4 then
+            aggregates multi-frame captions into a compact structured representation — a JSON record with
+            key–value fields for category, room-type, color, material, and a natural language caption.
+            This enables rich per-instance semantic content far beyond fixed-dimensional embeddings.
+          </p>
+        </div>
+      </div>
+      <div class="column is-half">
+        <div class="method-card">
+          <div class="card-tag">Module 4 · Sec. 3.4</div>
+          <h4>MTEFR: Multi-Type Expert Fusion Retrieval</h4>
+          <p>
+            Natural language queries vary fundamentally in informational structure. MTEFR employs a gate LLM
+            to assign query-adaptive weights {ω<sub>e</sub>} over four type-specialized experts
+            (Object, Room, Description, Abstract). Each expert independently returns a top-κ ranking of
+            candidate instances. Rank scores ν<sub>e,d</sub> = κ − ρ<sub>e,d</sub> + 1 are fused via
+            a weighted-sum score S<sup>sum</sup> and a peak score P, combined as
+            U<sub>d</sub> = λP<sub>d</sub> + (1−λ)S<sup>sum</sup><sub>d</sub> with a λ schedule that
+            balances multi-expert consensus with single-expert dominance.
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
-<!-- End paper abstract -->
+<!-- End Methodology -->
 
+<!-- Paper Experiments -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Experiments</h2>
+        <div class="content has-text-justified">
+          <h3 class="title is-5" style="margin-bottom: 0.75rem;">4.1. Instance-Level 2.5D Mapping</h3>
+          <img
+          src="static/images/fig4.jpg"
+          alt="2.5D open-vocabulary mapping results"
+          style="width: 100%; max-width: 1000px; display: block; margin: 0 auto; border-radius: 6px;"
+          >
+          <h2 class="subtitle has-text-centered" style="margin-top: 1.5rem; font-size: 0.95rem; line-height: 1.5;">
+            <p>
+              Instance-level 2.5D open-vocabulary mapping results on two scenes from the Replica dataset.            </p>
+          </h2>
+          <div class="table-wrap">
+              <p style="font-weight: 700; font-size: 0.88rem; margin-bottom: 0.4rem;">Table 1. Instance-level semantic labeling (pred-normalized AUC).</p>
+              <table class="results-table">
+                <thead>
+                  <tr><th>Dataset</th><th>Method</th><th>top₁</th><th>top₅</th><th>top₅₀</th><th>AUC↑</th><th>Inst. Diff↓</th></tr>
+                </thead>
+                <tbody>
+                  <tr class="section-row"><td colspan="7">Replica — Prediction-normalized</td></tr>
+                  <tr><td>Replica</td><td>HOV-SG (3D)</td><td>0.001</td><td>0.006</td><td>0.098</td><td>0.093</td><td>86.6</td></tr>
+                  <tr class="ours"><td>Replica</td><td>Ours (2.5D)</td><td>0.172</td><td>0.295</td><td>0.371</td><td><strong>0.356</strong></td><td><strong>2.6</strong></td></tr>
+                  <tr class="section-row"><td colspan="7">HM3DSem — Prediction-normalized</td></tr>
+                  <tr><td>HM3DSem</td><td>HOV-SG (3D)</td><td>0.000</td><td>0.000</td><td>0.006</td><td>0.085</td><td>417.6</td></tr>
+                  <tr class="ours"><td>HM3DSem</td><td>Ours (2.5D)</td><td>0.081</td><td>0.179</td><td>0.291</td><td><strong>0.371</strong></td><td><strong>67.4</strong></td></tr>
+                </tbody>
+              </table>
+              <p class="table-note">Only instances with IoU > 50% are considered matched pairs.</p>
+          </div>
+        </div>
+        <div class="content has-text-justified">
+          <h3 class="title is-5" style="margin-bottom: 0.75rem;">4.2. Room Semantic Segmentation</h3>
+          <img
+          src="static/images/fig6_1.jpg"
+          alt="Room segmentation results"
+          style="width: 90%; max-width: 1000px; display: block; margin: 0 auto; border-radius: 6px;"
+          >
+          <h2 class="subtitle has-text-centered" style="margin-top: 1.5rem; font-size: 0.95rem; line-height: 1.5;">
+            <p>
+              Room segmentation results on two scenes from the MP3D dataset.           </p>
+          </h2>
+          <div class="table-wrap">
+            <p style="font-weight: 700; font-size: 0.88rem; margin-bottom: 0.4rem;">Table 4. Room segmentation on MP3D.</p>
+            <table class="results-table">
+              <thead>
+                <tr><th>Method</th><th>Acc</th><th>mAcc</th><th>mIoU</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>CLIP (baseline)</td><td>0.73</td><td>0.72</td><td>0.53</td></tr>
+                <tr class="ours"><td>Ours</td><td><strong>0.89</strong></td><td><strong>0.86</strong></td><td><strong>0.75</strong></td></tr>
+              </tbody>
+            </table>
+            <p class="table-note">+16%p Acc, +14%p mAcc, +22%p mIoU over CLIP-only pixel-wise classification.</p>
+          </div>
+        </div>
+        <div class="content has-text-justified">
+          <h3 class="title is-5" style="margin-bottom: 0.75rem;">4.3. Navigation Evaluation</h3>
+          <img
+          src="static/images/fig7.jpg"
+          alt="Navigation results"
+          style="width: 90%; max-width: 1000px; display: block; margin: 0 auto; border-radius: 6px;"
+          >
+          <h2 class="subtitle has-text-centered" style="margin-top: 1.5rem; font-size: 0.95rem; line-height: 1.5;">
+            <p>
+              Qualitative Navigation Result.
+            </p>
+          </h2>
+          <div class="table-wrap">
+            <p style="font-weight: 700; font-size: 0.88rem; margin-bottom: 0.4rem;">
+              Table 5. Object Retrieval (O-SR %) and Navigation Success (N-SR %) on HM3DSem — 250 trials / query type.
+            </p>
+            <table class="results-table">
+              <thead>
+                <tr>
+                  <th rowspan="2">Method</th>
+                  <th colspan="2">(o)</th>
+                  <th colspan="2">(o,r)</th>
+                  <th colspan="2">(o,d)</th>
+                  <th colspan="2">(o,r,d)</th>
+                  <th colspan="2">(a,r,d)</th>
+                </tr>
+                <tr>
+                  <th>O-SR</th><th>N-SR</th>
+                  <th>O-SR</th><th>N-SR</th>
+                  <th>O-SR</th><th>N-SR</th>
+                  <th>O-SR</th><th>N-SR</th>
+                  <th>O-SR</th><th>N-SR</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>VLMaps</td><td>—</td><td>12.00</td><td>—</td><td>6.00</td><td>—</td><td>4.00</td><td>—</td><td>8.00</td><td>—</td><td>2.00</td></tr>
+                <tr><td>HOV-SG</td><td>40.00</td><td>15.00</td><td>8.00</td><td>18.18</td><td>10.00</td><td>23.07</td><td>8.00</td><td>18.18</td><td>2.00</td><td>0.00</td></tr>
+                <tr><td>HOV-SG (w/ desc.)</td><td>42.00</td><td>19.05</td><td>16.00</td><td>25.47</td><td>14.00</td><td>21.05</td><td>10.00</td><td>23.07</td><td>2.00</td><td>0.00</td></tr>
+                <tr class="ours"><td>Ours (Full+MTEFR)</td><td><strong>70.00</strong></td><td><strong>38.57</strong></td><td><strong>26.00</strong></td><td><strong>42.31</strong></td><td><strong>22.00</strong></td><td><strong>40.91</strong></td><td><strong>22.00</strong></td><td><strong>40.91</strong></td><td><strong>14.00</strong></td><td><strong>35.71</strong></td></tr>
+                <tr><td>Ours (Full+SPR)</td><td>58.00</td><td>34.48</td><td>26.00</td><td>38.46</td><td>16.00</td><td>43.75</td><td>18.00</td><td>44.44</td><td>6.00</td><td>52.00</td></tr>
+                <tr><td>Ours (Obj.)</td><td>58.00</td><td>36.21</td><td>24.00</td><td>41.67</td><td>12.00</td><td>50.00</td><td>18.00</td><td>44.44</td><td>4.00</td><td>48.00</td></tr>
+                <tr><td>Ours (Obj.+Desc.)</td><td>60.00</td><td>35.00</td><td>24.00</td><td>45.83</td><td>16.00</td><td>43.75</td><td>18.00</td><td>44.44</td><td>6.00</td><td>52.00</td></tr>
+                <tr><td>Ours (Obj.+Room)</td><td>60.00</td><td>38.33</td><td>26.00</td><td>46.15</td><td>14.00</td><td>48.22</td><td>14.00</td><td>50.00</td><td>8.00</td><td>37.50</td></tr>
+              </tbody>
+            </table>
+            <p class="table-note">
+              N-SR is computed over retrieval-successful trials only.
+              Query types: (o) object-only · (o,r) +room · (o,d) +description · (o,r,d) all explicit · (a,r,d) abstract+room+desc.
+              VLMaps excluded from O-SR (no instance-level identity).
+            </p>
+          </div>
+        </div>
+        <div class="content has-text-justified">
+          <h3 class="title is-5" style="margin-bottom: 0.75rem;">4.4. Storage Cost</h3>
+          <div class="table-wrap">
+            <p style="font-weight: 700; font-size: 0.88rem; margin-bottom: 0.4rem;">Table 6. Storage comparison on HM3DSem (MB).</p>
+            <table class="results-table">
+              <thead>
+                <tr><th>Dim.</th><th>Method</th><th>00824</th><th>00829</th><th>00862</th><th>00873</th><th>00890</th><th>Avg.</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>3D</td><td>HOV-SG</td><td>248</td><td>254</td><td>342</td><td>190</td><td>263</td><td>248</td></tr>
+                <tr><td>2D</td><td>VLMaps</td><td>118</td><td>186</td><td>99</td><td>179</td><td>68</td><td>118</td></tr>
+                <tr class="ours"><td>2.5D</td><td>Ours</td><td><strong>10</strong></td><td><strong>11</strong></td><td><strong>10</strong></td><td><strong>13</strong></td><td><strong>9</strong></td><td><strong>10</strong></td></tr>
+              </tbody>
+            </table>
+            <p class="table-note">~96% reduction vs. HOV-SG · ~92% reduction vs. VLMaps. Multi-floor scenes (00862, 00873, 00890): first floor only.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
 
 <!-- Image carousel -->
 <section class="hero is-small">
