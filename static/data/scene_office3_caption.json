@@ -1,0 +1,632 @@
+{
+  "3": {
+    "category": "sofa",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 76,
+    "top5_categories": [
+      "sofa",
+      "chair",
+      "pillow",
+      "cushion",
+      "bench"
+    ],
+    "caption": "{\n    \"category\": \"sofa\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"gray\",\n    \"material\": \"fabric\",\n    \"captions\": \"The light gray fabric sofa features a built-in storage compartment, adding functionality to the rec room.\"\n}"
+  },
+  "4": {
+    "category": "curtain",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 30,
+    "top5_categories": [
+      "curtain",
+      "blinds",
+      "window",
+      "wardrobe",
+      "panel"
+    ],
+    "caption": "{\n    \"category\": \"curtain\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"white, red\",\n    \"material\": \"fabric\",\n    \"captions\": \"The curtain is white with a central opening, hung from a rod, while another option is a red fabric curtain with a gold metal rod.\"\n}"
+  },
+  "6": {
+    "category": "laptop",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 48,
+    "top5_categories": [
+      "laptop",
+      "tablet",
+      "phone",
+      "book",
+      "remote-control"
+    ],
+    "caption": "{\n    \"category\": \"laptop\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"silver\",\n    \"material\": \"metal\",\n    \"captions\": \"The silver metal laptop features a built-in webcam and a small silver-tinged light, adding functionality to the rec room.\"\n}"
+  },
+  "7": {
+    "category": "desk",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 34,
+    "top5_categories": [
+      "desk",
+      "table",
+      "book",
+      "chair",
+      "stool"
+    ],
+    "caption": "{\n    \"category\": \"desk\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden desk features a built-in USB port, adding functionality to the rec room.\"\n}"
+  },
+  "8": {
+    "category": "pillow",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 61,
+    "top5_categories": [
+      "pillow",
+      "handbag",
+      "blanket",
+      "cushion",
+      "bag"
+    ],
+    "caption": "{\n    \"category\": \"pillow\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"orange\",\n    \"material\": \"fabric\",\n    \"captions\": \"The orange fabric pillow, slightly larger and puffy with a button in the center, is placed on the couch.\"\n}"
+  },
+  "9": {
+    "category": "monitor",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 52,
+    "top5_categories": [
+      "monitor",
+      "desktop-computer",
+      "tv-screen",
+      "desk",
+      "chair"
+    ],
+    "caption": "{\n    \"category\": \"monitor\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"white, blue\",\n    \"material\": \"metal\",\n    \"captions\": \"The monitor, made of metal, features a blue screen displaying a world map and includes a built-in camera.\",\n}"
+  },
+  "10": {
+    "category": "window",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 97,
+    "top5_categories": [
+      "window",
+      "curtain",
+      "monitor",
+      "tv-screen",
+      "blinds"
+    ],
+    "caption": "{\n    \"category\": \"window\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"red, white\",\n    \"material\": \"glass, metal\",\n    \"captions\": \"The red glass window features a white blind and a clock above it, adding a vibrant touch to the rec room.\"\n}"
+  },
+  "11": {
+    "category": "curtain",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 30,
+    "top5_categories": [
+      "curtain",
+      "blinds",
+      "window",
+      "panel",
+      "wardrobe"
+    ],
+    "caption": "{\n    \"category\": \"curtain\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"red\",\n    \"material\": \"fabric\",\n    \"captions\": \"The red fabric curtain, featuring a central opening and hung from a metal rod, adds a vibrant touch to the rec room.\"\n}"
+  },
+  "12": {
+    "category": "curtain",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 30,
+    "top5_categories": [
+      "curtain",
+      "blinds",
+      "window",
+      "wardrobe",
+      "panel"
+    ],
+    "caption": "{\n    \"category\": \"curtain\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"red, white\",\n    \"material\": \"fabric\",\n    \"captions\": \"The red fabric curtain, featuring a metal rod, adds a vibrant touch to the rec room, while a lightweight white curtain provides a contrasting option.\"\n}"
+  },
+  "13": {
+    "category": "pillow",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 61,
+    "top5_categories": [
+      "pillow",
+      "blanket",
+      "cushion",
+      "bag",
+      "handbag"
+    ],
+    "caption": "{\n    \"category\": \"pillow\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"navy blue\",\n    \"material\": \"velvet\",\n    \"captions\": \"The soft, velvety navy blue pillow features a buttoned design and is slightly larger than the other pillows.\"\n}"
+  },
+  "14": {
+    "category": "window",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 97,
+    "top5_categories": [
+      "window",
+      "curtain",
+      "tv-screen",
+      "monitor",
+      "blinds"
+    ],
+    "caption": "{\n    \"category\": \"window\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"black, silver, dark brown\",\n    \"material\": \"glass, metal\",\n    \"captions\": \"The window features a black glass design with a metal frame and security screen, providing both style and safety.\"\n}"
+  },
+  "16": {
+    "category": "window",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 97,
+    "top5_categories": [
+      "window",
+      "curtain",
+      "monitor",
+      "tv-screen",
+      "blinds"
+    ],
+    "caption": "{\n    \"category\": \"window\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"dark brown, black\",\n    \"material\": \"glass, metal\",\n    \"captions\": \"The window features a dark brown or black glass pane framed in metal, adding a modern touch to the rec room.\"\n}"
+  },
+  "20": {
+    "category": "pillow",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 61,
+    "top5_categories": [
+      "pillow",
+      "cushion",
+      "handbag",
+      "towel",
+      "bag"
+    ],
+    "caption": "{\n    \"category\": \"pillow\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"yellow\",\n    \"material\": \"cotton or wool\",\n    \"captions\": \"The soft yellow pillow features a patterned design and appears slightly lumpy, adding comfort to the rec room.\"\n}"
+  },
+  "24": {
+    "category": "window",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 97,
+    "top5_categories": [
+      "window",
+      "curtain",
+      "monitor",
+      "blinds",
+      "tv-screen"
+    ],
+    "caption": "{\n    \"category\": \"window\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"red\",\n    \"material\": \"glass\",\n    \"captions\": \"The red frosted glass window, framed in metal, adds a unique touch to the rec room.\"\n}"
+  },
+  "25": {
+    "category": "clock",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 22,
+    "top5_categories": [
+      "clock",
+      "undefined",
+      "remote-control",
+      "small-appliance",
+      "window"
+    ],
+    "caption": "{\n    \"category\": \"clock\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"black, red\",\n    \"material\": \"plastic\",\n    \"captions\": \"The black plastic clock, featuring a red dot and second hand, is mounted on the wall in the rec room.\"\n}"
+  },
+  "27": {
+    "category": "curtain",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 30,
+    "top5_categories": [
+      "curtain",
+      "blinds",
+      "window",
+      "wardrobe",
+      "panel"
+    ],
+    "caption": "{\n    \"category\": \"curtain\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"red, white\",\n    \"material\": \"fabric, lightweight material\",\n    \"captions\": \"The curtains include a lightweight white option with a subtle pattern and a deep red, thick fabric option, both featuring metal rods for easy operation.\"\n}"
+  },
+  "28": {
+    "category": "bench",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 8,
+    "top5_categories": [
+      "bench",
+      "chair",
+      "sofa",
+      "stool",
+      "toilet"
+    ],
+    "caption": "{\n    \"category\": \"bench\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"blue\",\n    \"material\": \"fabric, metal, plastic\",\n    \"captions\": \"The blue bench features a hard material with a built-in storage compartment and USB port, adding functionality to the rec room.\"\n}"
+  },
+  "32": {
+    "category": "chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 20,
+    "top5_categories": [
+      "chair",
+      "stool",
+      "undefined",
+      "cushion",
+      "bench"
+    ],
+    "caption": "{\n    \"category\": \"chair\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"purple, blue, deep blue\",\n    \"material\": \"fabric\",\n    \"captions\": \"The chair features a unique design with a swivel base, available in purple and deep blue fabric, providing comfort and style in the rec room.\"\n}"
+  },
+  "34": {
+    "category": "backpack",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 1,
+    "top5_categories": [
+      "backpack",
+      "clothing",
+      "pillow",
+      "undefined",
+      "beanbag"
+    ],
+    "caption": "{\n    \"category\": \"backpack\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"black\",\n    \"material\": \"canvas\",\n    \"captions\": \"The black canvas backpack features a zippered internal mesh pocket and a metal loop for attachment, making it practical for use in the rec room.\"\n}"
+  },
+  "35": {
+    "category": "chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 20,
+    "top5_categories": [
+      "chair",
+      "stool",
+      "undefined",
+      "monitor",
+      "void"
+    ],
+    "caption": "{\n    \"category\": \"chair\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"blue\",\n    \"material\": \"fabric\",\n    \"captions\": \"The blue fabric chair features a mesh back and built-in lumbar support, providing comfort in the rec room.\"\n}"
+  },
+  "36": {
+    "category": "chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 20,
+    "top5_categories": [
+      "chair",
+      "stool",
+      "undefined",
+      "plant-stand",
+      "void"
+    ],
+    "caption": "{\n    \"category\": \"chair\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"blue\",\n    \"material\": \"fabric, mesh\",\n    \"captions\": \"The blue chair, made of fabric with a mesh back and built-in lumbar support, is designed for comfort in the rec room.\"\n}"
+  },
+  "37": {
+    "category": "chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 20,
+    "top5_categories": [
+      "chair",
+      "stool",
+      "undefined",
+      "monitor",
+      "void"
+    ],
+    "caption": "{\n    \"category\": \"chair\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"black\",\n    \"material\": \"plastic\",\n    \"captions\": \"The black plastic chair features a built-in massaging function and speaker, enhancing comfort in the rec room.\"\n}"
+  },
+  "40": {
+    "category": "pillow",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 61,
+    "top5_categories": [
+      "pillow",
+      "cushion",
+      "blanket",
+      "chair",
+      "beanbag"
+    ],
+    "caption": "{\n    \"category\": \"pillow\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"orange\",\n    \"material\": \"fabric\",\n    \"captions\": \"The orange pillow, made of soft fabric, features a unique design with white and yellow stripes, adding a vibrant touch to the rec room.\"\n}"
+  },
+  "42": {
+    "category": "chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 20,
+    "top5_categories": [
+      "chair",
+      "stool",
+      "plant-stand",
+      "lamp",
+      "handrail"
+    ],
+    "caption": "{\n    \"category\": \"chair\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"brown\",\n    \"material\": \"leather, fabric\",\n    \"captions\": \"The chair is a dark brown leather armless design with built-in wireless charging, while another version is a neutral brown fabric chair featuring a massaging function.\"\n}"
+  },
+  "44": {
+    "category": "chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 20,
+    "top5_categories": [
+      "chair",
+      "stool",
+      "undefined",
+      "plant-stand",
+      "tv-stand"
+    ],
+    "caption": "{\n    \"category\": \"chair\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"black\",\n    \"material\": \"mesh\",\n    \"captions\": \"The black mesh chair features built-in lumbar support and a massaging function, providing comfort in the rec room.\"\n}"
+  },
+  "45": {
+    "category": "table",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 80,
+    "top5_categories": [
+      "table",
+      "desk",
+      "chair",
+      "countertop",
+      "cloth"
+    ],
+    "caption": "{\n    \"category\": \"table\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"golden brown\",\n    \"material\": \"wood\",\n    \"captions\": \"The wooden table, featuring a warm golden brown color and built-in power outlets, provides convenience for charging devices in the rec room.\"\n}"
+  },
+  "46": {
+    "category": "door",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 37,
+    "top5_categories": [
+      "door",
+      "window",
+      "wardrobe",
+      "refrigerator",
+      "curtain"
+    ],
+    "caption": "{\n    \"category\": \"door\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"white\",\n    \"material\": \"metal, glass\",\n    \"captions\": \"The white metal door features a glass panel and a handle, adding a modern touch to the rec room.\"\n}"
+  },
+  "48": {
+    "category": "chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 20,
+    "top5_categories": [
+      "chair",
+      "stool",
+      "undefined",
+      "void",
+      "small-appliance"
+    ],
+    "caption": "{\n    \"category\": \"chair\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"black\",\n    \"material\": \"mesh, synthetic\",\n    \"captions\": \"The black chair made of mesh material features built-in lumbar support and a massaging function, designed for comfort in the rec room.\"\n}"
+  },
+  "55": {
+    "category": "desk",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 34,
+    "top5_categories": [
+      "desk",
+      "table",
+      "stool",
+      "chair",
+      "plant-stand"
+    ],
+    "caption": "{\n    \"category\": \"desk\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"brown\",\n    \"material\": \"wood\",\n    \"captions\": \"The wooden desk, featuring a built-in USB port, adds functionality and warmth to the rec room.\"\n}"
+  },
+  "56": {
+    "category": "blinds",
+    "room_cat": null,
+    "room_id": null,
+    "category_idx": 12,
+    "top5_categories": [
+      "blinds",
+      "window",
+      "curtain",
+      "monitor",
+      "vent"
+    ],
+    "caption": "{\n    \"category\": \"blinds\",\n    \"room_cat\": null,\n    \"room_id\": null,\n    \"color\": \"white\",\n    \"material\": \"fabric\",\n    \"captions\": \"The motorized white fabric blind provides convenience and style.\"\n}"
+  },
+  "59": {
+    "category": "chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 20,
+    "top5_categories": [
+      "chair",
+      "stool",
+      "undefined",
+      "void",
+      "window"
+    ],
+    "caption": "{\n    \"category\": \"chair\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"black\",\n    \"material\": \"mesh, fabric, plastic\",\n    \"captions\": \"The black chair, made of mesh and a mix of fabric and plastic, features built-in lumbar support and a massaging function.\"\n}"
+  },
+  "60": {
+    "category": "chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 20,
+    "top5_categories": [
+      "chair",
+      "stool",
+      "undefined",
+      "void",
+      "window"
+    ],
+    "caption": "{\n    \"category\": \"chair\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"black\",\n    \"material\": \"mesh\",\n    \"captions\": \"The black mesh chair features built-in lumbar support, a USB port, and a massaging function, enhancing comfort in the rec room.\"\n}"
+  },
+  "64": {
+    "category": "desk",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 34,
+    "top5_categories": [
+      "desk",
+      "table",
+      "stool",
+      "chair",
+      "tv-stand"
+    ],
+    "caption": "{\n    \"category\": \"desk\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"brown\",\n    \"material\": \"wood\",\n    \"captions\": \"The wooden desk, featuring a built-in cable management system, adds functionality and style to the rec room.\"\n}"
+  },
+  "65": {
+    "category": "chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 20,
+    "top5_categories": [
+      "chair",
+      "stool",
+      "small-appliance",
+      "undefined",
+      "cloth"
+    ],
+    "caption": "{\n    \"category\": \"chair\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"black\",\n    \"material\": \"plastic, mesh\",\n    \"captions\": \"The black chair, made of plastic and mesh, features a built-in USB port and lumbar support, making it both functional and comfortable.\"\n}"
+  },
+  "66": {
+    "category": "chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 20,
+    "top5_categories": [
+      "chair",
+      "stool",
+      "plant-stand",
+      "floor",
+      "desk"
+    ],
+    "caption": "{\n    \"category\": \"chair\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"black\",\n    \"material\": \"mesh\",\n    \"captions\": \"The black mesh chair features built-in lumbar support and a massaging function, perfect for relaxation in the rec room.\"\n}"
+  },
+  "67": {
+    "category": "remote-control",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 68,
+    "top5_categories": [
+      "remote-control",
+      "book",
+      "small-appliance",
+      "phone",
+      "computer-keyboard"
+    ],
+    "caption": "{\n    \"category\": \"remote-control\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"black, white\",\n    \"material\": \"plastic\",\n    \"captions\": \"The remote-control, available in black and white plastic, features a built-in screen and speaker, suitable for use in the rec room.\"\n}"
+  },
+  "68": {
+    "category": "phone",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 58,
+    "top5_categories": [
+      "phone",
+      "tablet",
+      "laptop",
+      "book",
+      "remote-control"
+    ],
+    "caption": "{\n    \"category\": \"phone\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"blue, silver\",\n    \"material\": \"glass, metal\",\n    \"captions\": \"The phone is either blue and made of glass with a built-in charging port or silver and made of metal with a screen and charging capabilities.\",\n}"
+  },
+  "69": {
+    "category": "chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 20,
+    "top5_categories": [
+      "chair",
+      "cushion",
+      "stool",
+      "pillow",
+      "sofa"
+    ],
+    "caption": "{\n    \"category\": \"chair\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"black\",\n    \"material\": \"mesh\",\n    \"captions\": \"The black mesh chair features built-in lumbar support and a swivel function, making it comfortable and functional for the rec room.\"\n}"
+  },
+  "70": {
+    "category": "chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 20,
+    "top5_categories": [
+      "chair",
+      "stool",
+      "undefined",
+      "void",
+      "plant-stand"
+    ],
+    "caption": "{\n    \"category\": \"chair\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"black\",\n    \"material\": \"mesh\",\n    \"captions\": \"The black mesh chair features built-in lumbar support and a massaging function, providing comfort in the rec room.\"\n}"
+  },
+  "71": {
+    "category": "chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 20,
+    "top5_categories": [
+      "chair",
+      "cushion",
+      "pillow",
+      "sofa",
+      "bench"
+    ],
+    "caption": "{\n    \"category\": \"chair\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"blue, black, purple\",\n    \"material\": \"plastic, mesh, cushioned\",\n    \"captions\": \"The rec room features various chairs: a blue plastic chair with a massaging feature, a black mesh chair with lumbar support, and a purple cushioned chair with a swiveling base.\"\n}"
+  },
+  "74": {
+    "category": "chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 20,
+    "top5_categories": [
+      "chair",
+      "stool",
+      "tv-stand",
+      "desk",
+      "table"
+    ],
+    "caption": "{\n    \"category\": \"chair\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"blue, purple\",\n    \"material\": \"fabric, cushioned\",\n    \"captions\": \"The chair is blue with a soft, cushioned fabric, featuring a swiveling base and built-in lumbar support, adding comfort to the rec room.\"\n}"
+  },
+  "82": {
+    "category": "chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 20,
+    "top5_categories": [
+      "chair",
+      "stool",
+      "handbag",
+      "cushion",
+      "laptop"
+    ],
+    "caption": "{\n    \"category\": \"chair\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"black\",\n    \"material\": \"mesh\",\n    \"captions\": \"The black mesh chair features a built-in USB port and charging cable, making it a modern and functional addition to the rec room.\"\n}"
+  },
+  "86": {
+    "category": "chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 20,
+    "top5_categories": [
+      "chair",
+      "desk",
+      "table",
+      "stool",
+      "tv-stand"
+    ],
+    "caption": "{\n    \"category\": \"chair\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"black\",\n    \"material\": \"mesh\",\n    \"captions\": \"The black mesh chair features built-in lumbar support and a massaging function, providing comfort in the rec room.\"\n}"
+  },
+  "87": {
+    "category": "chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 20,
+    "top5_categories": [
+      "chair",
+      "desk",
+      "table",
+      "stool",
+      "tv-stand"
+    ],
+    "caption": "{\n    \"category\": \"chair\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"black\",\n    \"material\": \"mesh\",\n    \"captions\": \"The black mesh chair features built-in lumbar support and a massaging function, providing comfort in the rec room.\"\n}"
+  },
+  "88": {
+    "category": "cup",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 28,
+    "top5_categories": [
+      "cup",
+      "small-appliance",
+      "pot",
+      "stool",
+      "toilet"
+    ],
+    "caption": "{\n    \"category\": \"cup\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"gray, silver\",\n    \"material\": \"plastic, metal\",\n    \"captions\": \"The gray plastic cup with a crumpled top and transparent lid is empty, while a silver metal cup with a handle features a small, round base.\"\n}"
+  }
+}

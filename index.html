@@ -71,6 +71,32 @@
   <script defer src="static/js/bulma-carousel.min.js"></script>
   <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
+    <script
+    type="module"
+    src="static/js/map_viewer.js?v=20260326l"
+    onerror="(function(){var s=document.getElementById('mapViewerStatus'); if(s){s.textContent='map_viewer.js load failed.'; s.classList.add('is-error');}})()"
+  ></script>
+  <script
+    type="module"
+    src="static/js/rgb_scene_viewer.js?v=20260326d"
+    onerror="(function(){var s=document.getElementById('rgbSceneStatus'); if(s){s.textContent='rgb_scene_viewer.js load failed.'; s.classList.add('is-error');}})()"
+  ></script>
+  <script
+    type="module"
+    src="static/js/scene_controller.js?v=20260326c"
+  ></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", function () {
+      setTimeout(function () {
+        var status = document.getElementById("mapViewerStatus");
+        if (!status) return;
+        if (status.textContent && status.textContent.trim() === "Loading viewer...") {
+          status.textContent = "Viewer script did not start. Check network/console (module import).";
+          status.classList.add("is-error");
+        }
+      }, 3500);
+    });
+  </script>
 </head>
 <body>
 
@@ -366,6 +392,109 @@
     </div>
   </div>
 </section>
+
+<!-- Visual Results -->
+<section class="section hero is-light" id="visual-results">
+  <div class="container is-max-widescreen visual-results-container">
+    <div class="columns is-centered">
+      <div class="column is-full visual-results-column">
+        <h2 class="title is-3 has-text-centered">Visual Results</h2>
+        <h3 id="mappingResultsTitle" class="title is-4 visual-subsection-title">Proposed Mapping Results</h3>
+        <div class="mapping-title-gap" aria-hidden="true"></div>
+        <p class="subtitle has-text-centered visual-results-subtitle">
+          Click a map instance mask to highlight it in red and inspect its information.
+          <br>
+          To explore other scenes, use the left and right arrow buttons.
+        </p>
+
+        <div class="map-compare-wrap">
+          <button id="rgbPrevScene" class="scene-nav-btn scene-nav-btn-outer is-left" type="button" aria-label="Previous scene">&#8249;</button>
+
+          <div class="map-compare-grid">
+            <div class="map-compare-pane">
+              <h3 class="title is-5 map-pane-title">
+                RGB Scene
+              </h3>
+              <div class="map-viewer-shell">
+                <div id="rgbSceneCanvas" class="map-viewer-canvas" aria-label="Interactive RGB scene viewer"></div>
+                <div class="map-viewer-toolbar">
+                  <span id="rgbSceneStatus" class="map-viewer-status">Loading RGB scene...</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="map-compare-pane">
+              <h3 class="title is-5 map-pane-title">
+                Proposed Mapping Results
+              </h3>
+              <div class="map-viewer-shell">
+                <div id="mapViewerCanvas" class="map-viewer-canvas" aria-label="Interactive 2.5D map viewer"></div>
+                <div class="map-viewer-toolbar">
+                  <button id="mapViewerReset" class="button is-small is-dark" type="button">Reset Selection</button>
+                  <span id="mapViewerStatus" class="map-viewer-status">Loading viewer...</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button id="mapNextScene" class="scene-nav-btn scene-nav-btn-outer is-right" type="button" aria-label="Next scene">&#8250;</button>
+        </div>
+
+        <div id="mapViewerCaption" class="instance-caption-panel">
+          <h3 class="title is-5">Instance Information (Proposed Map)</h3>
+          <p class="instance-caption-placeholder">Select an instance mask in the map to view information.</p>
+        </div>
+
+        <div id="sceneIndicators" class="scene-indicators" aria-label="Scene indicators"></div>
+
+        <h3 id="navigationResultsTitle" class="title is-4 visual-subsection-title navigation-results-title">Navigation Results (HM3DSem: 00824-Dd4bFSTQ8gi)</h3>
+        <div class="mapping-title-gap" aria-hidden="true"></div>
+        <p class="subtitle has-text-centered navigation-results-subtitle">
+          Query-Type Navigation Examples
+        </p>
+        <div class="navigation-results-grid">
+          <div class="navigation-results-item">
+            <video controls autoplay muted loop preload="metadata" playsinline>
+              <source src="static/videos/o.mp4" type="video/mp4">
+            </video>
+            <p>(o): Show me a window</p>
+          </div>
+          <div class="navigation-results-item">
+            <video controls autoplay muted loop preload="metadata" playsinline>
+              <source src="static/videos/or.mp4" type="video/mp4">
+            </video>
+            <p>(o,r): move to the chair in the living room</p>
+          </div>
+          <div class="navigation-results-item">
+            <video controls autoplay muted loop preload="metadata" playsinline>
+              <source src="static/videos/od.mp4" type="video/mp4">
+            </video>
+            <p>(o,d): move to the bed with a white headboard</p>
+          </div>
+          <div class="navigation-results-item">
+            <video controls autoplay muted loop preload="metadata" playsinline>
+              <source src="static/videos/ord.mp4" type="video/mp4">
+            </video>
+            <p>(o,r,d): find me a blue flowerpot in the kitchen</p>
+          </div>
+          <div class="navigation-results-item">
+            <video controls autoplay muted loop preload="metadata" playsinline>
+              <source src="static/videos/abs_refri.mp4" type="video/mp4">
+            </video>
+            <p>(a,r,d): Go to the object in the kitchen where food is kept.</p>
+          </div>
+          <div class="navigation-results-item">
+            <video controls autoplay muted loop preload="metadata" playsinline>
+              <source src="static/videos/abs_sink.mp4" type="video/mp4">
+            </video>
+            <p>(a,r,d): Take me to the place for washing dishes in the kitchen.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Visual Results -->
 
 <!-- ══════════════════ HYPERPARAMETERS (white) ══════════════════ -->
 <section class="section hero">

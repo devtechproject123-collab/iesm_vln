@@ -1,0 +1,1934 @@
+{
+  "3": {
+    "category": "exhibition table",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 1505,
+    "top5_categories": [
+      "exhibition table",
+      "cabinet table",
+      "drawer desk",
+      "stand/small table",
+      "counter desk"
+    ],
+    "caption": "{\n    \"category\": \"exhibition table\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"yellow\",\n    \"material\": \"wood, paper\",\n    \"captions\": \"The yellow wooden exhibition table features a white paper surface and colorful knobs on its drawer, adding a playful touch to the rec room.\"\n}"
+  },
+  "6": {
+    "category": "boxes with books",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 586,
+    "top5_categories": [
+      "boxes with books",
+      "box with books",
+      "paper storage",
+      "art/clutter",
+      "shelf with art"
+    ],
+    "caption": "{\n    \"category\": \"boxes with books\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"white, blue\",\n    \"material\": \"wood, cardboard\",\n    \"captions\": \"The scene features a white wooden box with a sliding lid and a blue cardboard box with a clear plastic window, both used for storing books.\"\n}"
+  },
+  "8": {
+    "category": "bottom of stairs",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 1040,
+    "top5_categories": [
+      "bottom of stairs",
+      "stairs",
+      "stair step",
+      "stair",
+      "stairs skirt"
+    ],
+    "caption": "{\n    \"category\": \"bottom of stairs\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"white, brown\",\n    \"material\": \"wood, carpet\",\n    \"captions\": \"The bottom of the stairs features a combination of white wooden steps and a brown carpeted surface with subtle stripes, enhancing the texture and design.\"\n}"
+  },
+  "10": {
+    "category": "bottom of stairs",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 1040,
+    "top5_categories": [
+      "bottom of stairs",
+      "stair step",
+      "stairs",
+      "stair",
+      "stairs skirt"
+    ],
+    "caption": "{\n    \"category\": \"bottom of stairs\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"white, brown, black\",\n    \"material\": \"wood, metal\",\n    \"captions\": \"The bottom of the stairs features a combination of white wood and a black handrail, providing a clean and safe transition in the rec room.\"\n}"
+  },
+  "11": {
+    "category": "floor mat",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 205,
+    "top5_categories": [
+      "floor mat",
+      "rolled carpet",
+      "rug",
+      "carpet",
+      "carpet roll"
+    ],
+    "caption": "{\n    \"category\": \"floor mat\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"brown\",\n    \"material\": \"soft material, rubber\",\n    \"captions\": \"The brown floor mat, made of soft material with a non-slip backing, is located in the corner of the bedroom near the bed.\"\n}"
+  },
+  "12": {
+    "category": "bottom of stairs",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 1040,
+    "top5_categories": [
+      "bottom of stairs",
+      "stair step",
+      "stairs",
+      "stair",
+      "stairs skirt"
+    ],
+    "caption": "{\n    \"category\": \"bottom of stairs\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"white, light wood\",\n    \"material\": \"wood, metal\",\n    \"captions\": \"The bottom of the stairs features light-colored wood with a subtle sheen and a black metal handrail, providing a secure grip.\",\n}"
+  },
+  "13": {
+    "category": "refrigerator",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 105,
+    "top5_categories": [
+      "refrigerator",
+      "fridge",
+      "papers",
+      "box of paper",
+      "paper storage"
+    ],
+    "caption": "{\n    \"category\": \"refrigerator\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"white\",\n    \"material\": \"metal, stainless steel\",\n    \"captions\": \"The white refrigerator, made of metal with a stainless steel finish, features a built-in ice maker and water dispenser, adding convenience to the rec room.\"\n}"
+  },
+  "14": {
+    "category": "bottom of stairs",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 1040,
+    "top5_categories": [
+      "bottom of stairs",
+      "stairs",
+      "stair step",
+      "stair",
+      "stairs skirt"
+    ],
+    "caption": "{\n    \"category\": \"bottom of stairs\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"brown, black, white\",\n    \"material\": \"carpet, wood\",\n    \"captions\": \"The bottom of the stairs features brown carpet with a black handrail on one side, while another description mentions a white wooden bottom with a decorative white handrail.\"\n}"
+  },
+  "16": {
+    "category": "doorway",
+    "room_cat": "bathroom",
+    "room_id": 3,
+    "category_idx": 553,
+    "top5_categories": [
+      "doorway",
+      "door",
+      "door frame",
+      "door/window",
+      "door/window frame"
+    ],
+    "caption": "{\n    \"category\": \"doorway\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 3,\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden doorway features a silver handle and a small keyhole, providing access to the bathroom.\",\n}"
+  },
+  "17": {
+    "category": "bottom of stairs",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 1040,
+    "top5_categories": [
+      "bottom of stairs",
+      "stair step",
+      "stairs",
+      "stairs skirt",
+      "stair handle"
+    ],
+    "caption": "{\n    \"category\": \"bottom of stairs\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"white, black\",\n    \"material\": \"wood, metal\",\n    \"captions\": \"The bottom of the stairs features a white wooden structure with a black handrail, adding a modern touch to the rec room.\"\n}"
+  },
+  "18": {
+    "category": "counter door",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 757,
+    "top5_categories": [
+      "counter door",
+      "bed cabinet",
+      "dresser",
+      "furniture",
+      "bed for pet"
+    ],
+    "caption": "{\n    \"category\": \"counter door\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden counter door features a silver handle and is equipped with a lock, located near the top of the counter.\",\n}"
+  },
+  "19": {
+    "category": "doorway",
+    "room_cat": "bathroom",
+    "room_id": 2,
+    "category_idx": 553,
+    "top5_categories": [
+      "doorway",
+      "door",
+      "door frame",
+      "door/window",
+      "door/window frame"
+    ],
+    "caption": "{\n    \"category\": \"doorway\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 2,\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden doorway features a silver handle and a small window at the top, providing access to the bathroom.\"\n}"
+  },
+  "20": {
+    "category": "decorative lamp",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 804,
+    "top5_categories": [
+      "decorative lamp",
+      "light",
+      "lighting fixture",
+      "light fixture",
+      "night lamp"
+    ],
+    "caption": "{\n    \"category\": \"decorative lamp\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"white, silver, gold\",\n    \"material\": \"glass, metal\",\n    \"captions\": \"The decorative lamp features a frosted glass shade and is available in white, silver, and gold, with dimmable functionality for adjustable brightness.\"\n}"
+  },
+  "21": {
+    "category": "bed",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 30,
+    "top5_categories": [
+      "bed",
+      "bedframe",
+      "bed for pet",
+      "bed stand",
+      "bed table"
+    ],
+    "caption": "{\n    \"category\": \"bed\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"navy blue\",\n    \"material\": \"quilted fabric, wood\",\n    \"captions\": \"The navy blue bed, made of soft quilted material with a wooden headboard, features a built-in reading light.\"\n}"
+  },
+  "24": {
+    "category": "easy chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 789,
+    "top5_categories": [
+      "easy chair",
+      "folding chair",
+      "chair",
+      "folded chair",
+      "patio chair"
+    ],
+    "caption": "{\n    \"category\": \"easy chair\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"yellow, brown\",\n    \"material\": \"fabric\",\n    \"captions\": \"The easy chair, available in brown and yellow fabric, features a built-in footrest, providing comfort in the rec room.\"\n}"
+  },
+  "25": {
+    "category": "easy chair",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 789,
+    "top5_categories": [
+      "easy chair",
+      "chair",
+      "folding chair",
+      "dinner chair",
+      "patio chair"
+    ],
+    "caption": "{\n    \"category\": \"easy chair\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"brown, navy blue\",\n    \"material\": \"fabric\",\n    \"captions\": \"The easy chair, available in brown and navy blue fabric, features a built-in footrest, providing comfort in the rec room.\"\n}"
+  },
+  "28": {
+    "category": "doorway",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 553,
+    "top5_categories": [
+      "doorway",
+      "door",
+      "door frame",
+      "door/window",
+      "door /otherroom"
+    ],
+    "caption": "{\n    \"category\": \"doorway\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden doorway, slightly ajar with a matching door handle, offers a glimpse into the bedroom beyond.\"\n}"
+  },
+  "30": {
+    "category": "doorway",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 553,
+    "top5_categories": [
+      "doorway",
+      "door",
+      "door frame",
+      "door/window",
+      "door/window frame"
+    ],
+    "caption": "{\n    \"category\": \"doorway\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden door, slightly ajar with a metal handle, allows a glimpse into the next room.\",\n}"
+  },
+  "32": {
+    "category": "sideboard",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 577,
+    "top5_categories": [
+      "sideboard",
+      "chest of drawer",
+      "bed cabinet",
+      "chest of drawers",
+      "cabinet table"
+    ],
+    "caption": "{\n    \"category\": \"sideboard\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden sideboard features a built-in wine cooler and a small round glass-topped table in front, adding functionality and style to the rec room.\"\n}"
+  },
+  "34": {
+    "category": "sink pipe",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 711,
+    "top5_categories": [
+      "sink pipe",
+      "bathtub tap",
+      "bath sink",
+      "bath faucet",
+      "washbasin counter"
+    ],
+    "caption": "{\n    \"category\": \"sink pipe\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"white, black, silver\",\n    \"material\": \"metal\",\n    \"captions\": \"The sink pipe, made of metal, features a visible water flow indicator and comes in various colors including white, black, and silver.\"\n}"
+  },
+  "40": {
+    "category": "bed",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 30,
+    "top5_categories": [
+      "bed",
+      "bed for pet",
+      "bedframe",
+      "bed comforter",
+      "bedding"
+    ],
+    "caption": "{\n    \"category\": \"bed\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"white, gray, black, dark brown\",\n    \"material\": \"soft fabric\",\n    \"captions\": \"The bed features a dark brown headboard with a white and gray patterned comforter, complemented by a mix of pillows and a built-in reading light.\"\n}"
+  },
+  "43": {
+    "category": "floor mat",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 205,
+    "top5_categories": [
+      "floor mat",
+      "rug",
+      "rolled carpet",
+      "carpet",
+      "carpet roll"
+    ],
+    "caption": "{\n    \"category\": \"floor mat\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"brown\",\n    \"material\": \"carpet, rubber\",\n    \"captions\": \"The brown floor mat, made of soft carpet with a non-slip backing, adds warmth and comfort in front of the bed.\"\n}"
+  },
+  "44": {
+    "category": "blinds",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 58,
+    "top5_categories": [
+      "blinds",
+      "window shade",
+      "window curtain",
+      "window valence",
+      "air conditioning"
+    ],
+    "caption": "{\n    \"category\": \"blinds\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"white\",\n    \"material\": \"fabric\",\n    \"captions\": \"The white fabric blind, featuring a cord for operation, is hung from a metal rod, providing privacy and light control in the bedroom.\"\n}"
+  },
+  "45": {
+    "category": "doorway",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 553,
+    "top5_categories": [
+      "doorway",
+      "door",
+      "door frame",
+      "door/window",
+      "door/window frame"
+    ],
+    "caption": "{\n    \"category\": \"doorway\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden doorway features a metal handle and is slightly ajar, inviting a glimpse into the bedroom.\",\n}"
+  },
+  "46": {
+    "category": "sideboard",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 577,
+    "top5_categories": [
+      "sideboard",
+      "cabinet table",
+      "chest of drawers",
+      "dresser",
+      "drawer desk"
+    ],
+    "caption": "{\n    \"category\": \"sideboard\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"brown\",\n    \"material\": \"wood, metal\",\n    \"captions\": \"The brown wooden sideboard features a built-in drawer with a metal handle, adding warmth and industrial style to the bedroom.\"\n}"
+  },
+  "47": {
+    "category": "decorative plant",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 52,
+    "top5_categories": [
+      "decorative plant",
+      "flowerpot",
+      "flower vase",
+      "bouquet",
+      "bonsai tree"
+    ],
+    "caption": "{\n    \"category\": \"decorative plant\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"light greenish-white\",\n    \"material\": \"artificial, wicker\",\n    \"captions\": \"The decorative plant features light greenish-white artificial leaves in a wicker basket, adding a touch of nature to the bedroom.\"\n}"
+  },
+  "48": {
+    "category": "blinds",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 58,
+    "top5_categories": [
+      "blinds",
+      "window shade",
+      "window curtain",
+      "air conditioning",
+      "window shutters"
+    ],
+    "caption": "{\n    \"category\": \"blinds\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"white\",\n    \"material\": \"fabric, plastic\",\n    \"captions\": \"The white blinds, made of a combination of fabric and plastic, feature both corded and cordless operation options for adjusting light.\",\n}"
+  },
+  "49": {
+    "category": "decorative lamp",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 804,
+    "top5_categories": [
+      "decorative lamp",
+      "night lamp",
+      "lamp",
+      "bed light",
+      "light"
+    ],
+    "caption": "{\n    \"category\": \"decorative lamp\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"white\",\n    \"material\": \"metal, glass\",\n    \"captions\": \"The decorative lamp features a white base, either metal or glass, with a unique, irregularly shaped shade, adding character to the bedroom.\"\n}"
+  },
+  "52": {
+    "category": "curtain",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 20,
+    "top5_categories": [
+      "curtain",
+      "bed curtain",
+      "curtain valence",
+      "curtain bar",
+      "window curtain"
+    ],
+    "caption": "{\n    \"category\": \"curtain\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"light gray\",\n    \"material\": \"cotton, polyester\",\n    \"captions\": \"The light gray curtain, made of a cotton and polyester blend, features a subtle sheen and a slight gathering at the top, adding visual interest to the bedroom.\"\n}"
+  },
+  "53": {
+    "category": "counter desk",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 1314,
+    "top5_categories": [
+      "counter desk",
+      "cabinet table",
+      "cabinet counter",
+      "cabinet kitchen",
+      "drawer desk"
+    ],
+    "caption": "{\n    \"category\": \"counter desk\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"brown\",\n    \"material\": \"wood\",\n    \"captions\": \"The wooden counter desk, featuring a warm brown color, includes built-in power management options like a power strip and USB port for convenience.\"\n}"
+  },
+  "54": {
+    "category": "wall tv",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 369,
+    "top5_categories": [
+      "wall tv",
+      "art frame",
+      "screen",
+      "artwork frame",
+      "framed text"
+    ],
+    "caption": "{\n    \"category\": \"wall tv\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"silver, black\",\n    \"material\": \"metal, plastic\",\n    \"captions\": \"The flat-screen wall TV, featuring a sleek silver frame and built-in soundbar, is mounted on the wall, enhancing the modern aesthetic of the bedroom.\"\n}"
+  },
+  "55": {
+    "category": "doorway",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 553,
+    "top5_categories": [
+      "doorway",
+      "door",
+      "door frame",
+      "door/window",
+      "door/window frame"
+    ],
+    "caption": "{\n    \"category\": \"doorway\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden doorway features a metal handle and a kick-plate, providing a classic entrance to the bedroom.\"\n}"
+  },
+  "57": {
+    "category": "curtain",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 20,
+    "top5_categories": [
+      "curtain",
+      "window curtain",
+      "bed curtain",
+      "curtain valence",
+      "curtain rod"
+    ],
+    "caption": "{\n    \"category\": \"curtain\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"white, light brown, gray\",\n    \"material\": \"sheer fabric, woven fabric\",\n    \"captions\": \"The curtains include a white sheer option, a light brown partially transparent fabric, and a gray fabric hung from a rod, adding texture and style to the bedroom.\"\n}"
+  },
+  "58": {
+    "category": "cabinet table",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 654,
+    "top5_categories": [
+      "cabinet table",
+      "sideboard",
+      "drawer desk",
+      "stand/small table",
+      "side table"
+    ],
+    "caption": "{\n    \"category\": \"cabinet table\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"brown\",\n    \"material\": \"wood\",\n    \"captions\": \"The brown wooden cabinet table features a drawer with a green handle, adding functionality and style to the bedroom.\"\n}"
+  },
+  "59": {
+    "category": "decorative lamp",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 804,
+    "top5_categories": [
+      "decorative lamp",
+      "night lamp",
+      "lamp",
+      "bed light",
+      "light"
+    ],
+    "caption": "{\n    \"category\": \"decorative lamp\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"white\",\n    \"material\": \"ceramic, metal\",\n    \"captions\": \"The white ceramic decorative lamp features a unique design with a metal band and base, adding a stylish touch to the bedroom.\"\n}"
+  },
+  "61": {
+    "category": "cabinet kitchen",
+    "room_cat": "bathroom",
+    "room_id": 4,
+    "category_idx": 1015,
+    "top5_categories": [
+      "cabinet kitchen",
+      "sideboard",
+      "cabinet counter",
+      "cabinet",
+      "cabinet door"
+    ],
+    "caption": "{\n    \"category\": \"cabinet kitchen\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"dark brown\",\n    \"material\": \"wood\",\n    \"captions\": \"The dark wood cabinet features a built-in wine rack and a rich finish, adding functionality and elegance to the bathroom.\"\n}"
+  },
+  "63": {
+    "category": "book",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 13,
+    "top5_categories": [
+      "book",
+      "notebooks",
+      "notebook",
+      "album",
+      "stack of books / papers"
+    ],
+    "caption": "{\n    \"category\": \"book\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"red, blue\",\n    \"material\": \"paper\",\n    \"captions\": \"The book, primarily red with a gold-embossed cover, is made of paper and features a red bookmark, lying on its side.\"\n}"
+  },
+  "64": {
+    "category": "book",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 13,
+    "top5_categories": [
+      "book",
+      "box with books",
+      "album",
+      "notebook",
+      "notebooks"
+    ],
+    "caption": "{\n    \"category\": \"book\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"yellow, gold\",\n    \"material\": \"paper\",\n    \"captions\": \"The yellow book with a gold-embossed cover is made of paper, adding a touch of elegance to the bedroom.\"\n}"
+  },
+  "74": {
+    "category": "couch",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 59,
+    "top5_categories": [
+      "couch",
+      "l-shaped sofa",
+      "sofa set",
+      "sofa",
+      "set of armchairs"
+    ],
+    "caption": "{\n    \"category\": \"couch\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"brown\",\n    \"material\": \"fabric, leather\",\n    \"captions\": \"The deep, rich brown couch, made of a comfortable blend of fabric and leather, features an integrated design, adding elegance to the bedroom.\"\n}"
+  },
+  "77": {
+    "category": "side table",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 150,
+    "top5_categories": [
+      "side table",
+      "end table",
+      "small table/stand",
+      "stand/small table",
+      "bedroom table"
+    ],
+    "caption": "{\n    \"category\": \"side table\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"brown\",\n    \"material\": \"wood, glass\",\n    \"captions\": \"The wooden side table features a brown color and a unique glass top, adding style to the bedroom.\"\n}"
+  },
+  "78": {
+    "category": "doorway",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 553,
+    "top5_categories": [
+      "doorway",
+      "door",
+      "door/window",
+      "door frame",
+      "door window"
+    ],
+    "caption": "{\n    \"category\": \"doorway\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden doorway features a gold handle and a small silver keyhole, adding a classic touch to the bedroom.\"\n}"
+  },
+  "82": {
+    "category": "blinds",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 58,
+    "top5_categories": [
+      "blinds",
+      "window shade",
+      "air conditioning",
+      "window valence",
+      "bathroom window"
+    ],
+    "caption": "{\n    \"category\": \"blinds\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"white\",\n    \"material\": \"fabric\",\n    \"captions\": \"The white fabric blinds, equipped with a motorized feature, provide convenience and style to the bedroom.\"\n}"
+  },
+  "83": {
+    "category": "bedframe",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 527,
+    "top5_categories": [
+      "bedframe",
+      "headboard",
+      "bed for pet",
+      "bed",
+      "couch"
+    ],
+    "caption": "{\n    \"category\": \"bedframe\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"dark brown\",\n    \"material\": \"wood\",\n    \"captions\": \"The dark brown wooden bedframe features a storage drawer and a built-in reading light, enhancing functionality in the bedroom.\"\n}"
+  },
+  "85": {
+    "category": "toilet",
+    "room_cat": "bathroom",
+    "room_id": 4,
+    "category_idx": 35,
+    "top5_categories": [
+      "toilet",
+      "toilet seat",
+      "toilet paper",
+      "plumbing",
+      "cat toilet"
+    ],
+    "caption": "{\n    \"category\": \"toilet\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"white\",\n    \"material\": \"ceramic\",\n    \"captions\": \"The white ceramic toilet features a built-in bidet and self-cleaning system, enhancing functionality in the bathroom.\"\n}"
+  },
+  "86": {
+    "category": "set of towels",
+    "room_cat": "bathroom",
+    "room_id": 4,
+    "category_idx": 1119,
+    "top5_categories": [
+      "set of towels",
+      "hand towel",
+      "towel",
+      "bathroom towel",
+      "bath towel"
+    ],
+    "caption": "{\n    \"category\": \"set of towels\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 4,\n    \"color\": \"white, dark brown, black\",\n    \"material\": \"cotton\",\n    \"captions\": \"The set of white cotton towels, featuring dark brown and black accents, is neatly hung on a towel rack in the bathroom.\"\n}"
+  },
+  "88": {
+    "category": "counter desk",
+    "room_cat": "bathroom",
+    "room_id": 4,
+    "category_idx": 1314,
+    "top5_categories": [
+      "counter desk",
+      "counter",
+      "kitchen counter",
+      "bathroom counter",
+      "countertop"
+    ],
+    "caption": "{\n    \"category\": \"counter desk\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 4,\n    \"color\": \"white\",\n    \"material\": \"marble, stone\",\n    \"captions\": \"The white marble counter desk features a built-in sink and a mirror above, adding elegance to the bathroom.\"\n}"
+  },
+  "89": {
+    "category": "doorway",
+    "room_cat": "bathroom",
+    "room_id": 4,
+    "category_idx": 553,
+    "top5_categories": [
+      "doorway",
+      "door frame",
+      "door",
+      "door/window frame",
+      "door/window"
+    ],
+    "caption": "{\n    \"category\": \"doorway\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 4,\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden doorway features a metal handle and a doorknocker, providing a classic entrance to the bathroom.\"\n}"
+  },
+  "90": {
+    "category": "floor mat",
+    "room_cat": "bathroom",
+    "room_id": 5,
+    "category_idx": 205,
+    "top5_categories": [
+      "floor mat",
+      "rug",
+      "rolled carpet",
+      "carpet",
+      "bathroom rug"
+    ],
+    "caption": "{\n    \"category\": \"floor mat\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 5,\n    \"color\": \"neutral, earthy brown\",\n    \"material\": \"soft, thick, durable material\",\n    \"captions\": \"The neutral, earthy brown floor mat is made of soft, thick material with a non-slip backing, providing comfort and safety in the bathroom.\"\n}"
+  },
+  "92": {
+    "category": "washbasin counter",
+    "room_cat": "bathroom",
+    "room_id": 4,
+    "category_idx": 522,
+    "top5_categories": [
+      "washbasin counter",
+      "washbasin",
+      "sink",
+      "sink/basin",
+      "kitchen sink"
+    ],
+    "caption": "{\n    \"category\": \"washbasin counter\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"white\",\n    \"material\": \"marble\",\n    \"captions\": \"The white marble washbasin counter features a built-in sink and convenient accessories, adding elegance to the bathroom.\"\n}"
+  },
+  "94": {
+    "category": "doorway",
+    "room_cat": "bathroom",
+    "room_id": 4,
+    "category_idx": 553,
+    "top5_categories": [
+      "doorway",
+      "door frame",
+      "door",
+      "door/window frame",
+      "door/window"
+    ],
+    "caption": "{\n    \"category\": \"doorway\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 4,\n    \"color\": \"white\",\n    \"material\": \"wood, metal\",\n    \"captions\": \"The white door, made of wood or metal, features a metal handle and may include a keyhole or glass window, serving as an entryway to the bathroom.\"\n}"
+  },
+  "95": {
+    "category": "cake",
+    "room_cat": "bathroom",
+    "room_id": 4,
+    "category_idx": 1591,
+    "top5_categories": [
+      "cake",
+      "bowl with sweets",
+      "bowl of sweets",
+      "decorative bowl",
+      "box of something"
+    ],
+    "caption": "{\n    \"category\": \"cake\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"white, gold\",\n    \"material\": \"cake, frosting\",\n    \"captions\": \"The white cake with a layer of frosting and a gold base adds a unique touch to the bathroom setting.\"\n}"
+  },
+  "96": {
+    "category": "bowl with sweets",
+    "room_cat": "bathroom",
+    "room_id": 4,
+    "category_idx": 1239,
+    "top5_categories": [
+      "bowl with sweets",
+      "bowl of sweets",
+      "art/clutter",
+      "decorative bowl",
+      "stack of papers"
+    ],
+    "caption": "{\n    \"category\": \"bowl with sweets\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"clear, gold, white\",\n    \"material\": \"glass, ceramic\",\n    \"captions\": \"The elegant bowl with a gold-rimmed base, made of glass and ceramic, adds a luxurious touch to the bathroom decor.\"\n}"
+  },
+  "97": {
+    "category": "washbasin counter",
+    "room_cat": "bathroom",
+    "room_id": 4,
+    "category_idx": 522,
+    "top5_categories": [
+      "washbasin counter",
+      "washbasin",
+      "kitchen sink",
+      "sink",
+      "sink/basin"
+    ],
+    "caption": "{\n    \"category\": \"washbasin counter\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"white\",\n    \"material\": \"marble, stone\",\n    \"captions\": \"The elegant washbasin counter, made of white marble, features a built-in sink and a soap dispenser, enhancing the bathroom's functionality.\"\n}"
+  },
+  "102": {
+    "category": "decorative quilt",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 832,
+    "top5_categories": [
+      "decorative quilt",
+      "bedframe",
+      "easy chair",
+      "stack of blankets",
+      "decorative cloth"
+    ],
+    "caption": "{\n    \"category\": \"decorative quilt\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"black, white\",\n    \"material\": \"cotton, wool, felt\",\n    \"captions\": \"The decorative quilt features a mix of black and white materials, including cotton for the main fabric, wool for the border, and felt for the central design.\"\n}"
+  },
+  "105": {
+    "category": "decorative lamp",
+    "room_cat": "bathroom",
+    "room_id": 4,
+    "category_idx": 804,
+    "top5_categories": [
+      "decorative lamp",
+      "light",
+      "bed light",
+      "night lamp",
+      "lighting fixture"
+    ],
+    "caption": "{\n    \"category\": \"decorative lamp\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 4,\n    \"color\": \"silver, white\",\n    \"material\": \"metal\",\n    \"captions\": \"The decorative lamp, made of metal with a silver and white finish, features a unique design and is mounted on the wall, adding modern functionality to the bathroom.\"\n}"
+  },
+  "106": {
+    "category": "window",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 9,
+    "top5_categories": [
+      "window",
+      "window /outside",
+      "door window",
+      "window curtain",
+      "window frame"
+    ],
+    "caption": "{\n    \"category\": \"window\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 7,\n    \"color\": \"white\",\n    \"material\": \"glass, metal\",\n    \"captions\": \"The white window, featuring a glass pane and a metal frame, adds brightness to the bedroom.\"\n}"
+  },
+  "107": {
+    "category": "decorative lamp",
+    "room_cat": "bathroom",
+    "room_id": 4,
+    "category_idx": 804,
+    "top5_categories": [
+      "decorative lamp",
+      "light",
+      "bed light",
+      "lighting fixture",
+      "night lamp"
+    ],
+    "caption": "{\n    \"category\": \"decorative lamp\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 4,\n    \"color\": \"gold, silver\",\n    \"material\": \"metal, glass\",\n    \"captions\": \"The decorative lamp, featuring a unique curved design with a gold finish and elegant glass-like pieces, enhances the bathroom's visual appeal.\"\n}"
+  },
+  "108": {
+    "category": "side table",
+    "room_cat": "bathroom",
+    "room_id": 4,
+    "category_idx": 150,
+    "top5_categories": [
+      "side table",
+      "bed for pet",
+      "bedframe",
+      "bed base",
+      "bed table"
+    ],
+    "caption": "{\n    \"category\": \"side table\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"dark brown\",\n    \"material\": \"wood, metal\",\n    \"captions\": \"The side table made of dark wood with a metal base features a storage compartment with a hinged lid.\"\n}"
+  },
+  "109": {
+    "category": "side table",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 150,
+    "top5_categories": [
+      "side table",
+      "bedframe",
+      "easy chair",
+      "bed cabinet",
+      "dresser"
+    ],
+    "caption": "{\n    \"category\": \"side table\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"dark brown\",\n    \"material\": \"wood, metal\",\n    \"captions\": \"The side table made of dark wood with a metal base features a storage compartment, adding functionality to the bedroom.\"\n}"
+  },
+  "110": {
+    "category": "papers",
+    "room_cat": "bathroom",
+    "room_id": 5,
+    "category_idx": 440,
+    "top5_categories": [
+      "papers",
+      "stack of papers",
+      "paper",
+      "file binder",
+      "pile of magazines"
+    ],
+    "caption": "{\n    \"category\": \"papers\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 5,\n    \"color\": \"white\",\n    \"material\": \"paper\",\n    \"captions\": \"The white paper with a torn edge is found in the bathroom, indicating it may be used for notes or reminders.\"\n}"
+  },
+  "112": {
+    "category": "set of towels",
+    "room_cat": "bathroom",
+    "room_id": 5,
+    "category_idx": 1119,
+    "top5_categories": [
+      "set of towels",
+      "bath towels",
+      "bathroom towel",
+      "hand towel",
+      "bath towel"
+    ],
+    "caption": "{\n    \"category\": \"set of towels\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 5,\n    \"color\": \"white\",\n    \"material\": \"cotton\",\n    \"captions\": \"The set of white cotton towels, featuring built-in drying and hanging options, adds functionality and cleanliness to the bathroom.\"\n}"
+  },
+  "113": {
+    "category": "handbag",
+    "room_cat": "bathroom",
+    "room_id": 5,
+    "category_idx": 325,
+    "top5_categories": [
+      "handbag",
+      "shoulder bag",
+      "purse",
+      "bag with something",
+      "bag"
+    ],
+    "caption": "{\n    \"category\": \"handbag\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"yellow\",\n    \"material\": \"fabric, canvas, synthetic\",\n    \"captions\": \"The yellow handbag, made of fabric or canvas, features a flexible handle, adding a stylish touch to the bathroom.\"\n}"
+  },
+  "114": {
+    "category": "window",
+    "room_cat": "bathroom",
+    "room_id": 5,
+    "category_idx": 9,
+    "top5_categories": [
+      "window",
+      "window frame",
+      "window /outside",
+      "bathroom window",
+      "screen"
+    ],
+    "caption": "{\n    \"category\": \"window\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"white\",\n    \"material\": \"glass\",\n    \"captions\": \"The white frosted glass window, located on the wall to the left of the sink, adds privacy and light to the bathroom.\"\n}"
+  },
+  "115": {
+    "category": "doorway",
+    "room_cat": "bathroom",
+    "room_id": 5,
+    "category_idx": 553,
+    "top5_categories": [
+      "doorway",
+      "door",
+      "door frame",
+      "door/window",
+      "door/window frame"
+    ],
+    "caption": "{\n    \"category\": \"doorway\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 5,\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden door features a metal handle and adds a clean and functional entryway to the bathroom.\"\n}"
+  },
+  "121": {
+    "category": "medal collection",
+    "room_cat": "bathroom",
+    "room_id": 5,
+    "category_idx": 1237,
+    "top5_categories": [
+      "medal collection",
+      "medal",
+      "umbrella",
+      "violin",
+      "rod"
+    ],
+    "caption": "{\n    \"category\": \"medal collection\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 5,\n    \"color\": \"gold\",\n    \"material\": \"metal\",\n    \"captions\": \"The gold medal, made of metal, features a raised circular design, adding a touch of achievement to the bathroom.\"\n}"
+  },
+  "131": {
+    "category": "window frame",
+    "room_cat": "bedroom",
+    "room_id": 7,
+    "category_idx": 15,
+    "top5_categories": [
+      "window frame",
+      "window",
+      "window /outside",
+      "door/window frame",
+      "screen"
+    ],
+    "caption": "{\n    \"category\": \"window frame\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden window frame features a small, central round design, adding a classic touch to the bedroom.\"\n}"
+  },
+  "135": {
+    "category": "washbasin counter",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 522,
+    "top5_categories": [
+      "washbasin counter",
+      "sink table",
+      "kitchen sink",
+      "sink",
+      "washbasin"
+    ],
+    "caption": "{\n    \"category\": \"washbasin counter\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"white\",\n    \"material\": \"unknown\",\n    \"captions\": \"The white washbasin counter features a built-in sink and storage compartment, adding functionality to the rec room.\"\n}"
+  },
+  "136": {
+    "category": "blinds",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 58,
+    "top5_categories": [
+      "blinds",
+      "window shade",
+      "air conditioning",
+      "window curtain",
+      "decorative quilt"
+    ],
+    "caption": "{\n    \"category\": \"blinds\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"gray, orange, white\",\n    \"material\": \"fabric, wood\",\n    \"captions\": \"The blinds feature a gray and orange color scheme with a fabric and wood mix, complete with a valance for added elegance.\"\n}"
+  },
+  "139": {
+    "category": "set of towels",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 1119,
+    "top5_categories": [
+      "set of towels",
+      "hand towel",
+      "kitchen towel",
+      "towel",
+      "bathroom towel"
+    ],
+    "caption": "{\n    \"category\": \"set of towels\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"blue\",\n    \"material\": \"cotton\",\n    \"captions\": \"The blue cotton towels are neatly arranged, adding a vibrant touch to the rec room.\"\n}"
+  },
+  "140": {
+    "category": "doorway",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 553,
+    "top5_categories": [
+      "doorway",
+      "door frame",
+      "door",
+      "door/window frame",
+      "door/window"
+    ],
+    "caption": "{\n    \"category\": \"doorway\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden doorway features a silver handle and a small round keyhole, adding a classic touch to the bedroom.\"\n}"
+  },
+  "143": {
+    "category": "easy chair",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 789,
+    "top5_categories": [
+      "easy chair",
+      "stuffed animal",
+      "soft chair",
+      "child car seat",
+      "doll"
+    ],
+    "caption": "{\n    \"category\": \"easy chair\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"brown\",\n    \"material\": \"leather\",\n    \"captions\": \"The dark brown leather easy chair, with a low base and durable design, adds a touch of comfort to the bedroom.\"\n}"
+  },
+  "145": {
+    "category": "car",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 740,
+    "top5_categories": [
+      "car",
+      "car model",
+      "bed small",
+      "child car seat",
+      "toy"
+    ],
+    "caption": "{\n    \"category\": \"car\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"orange, white\",\n    \"material\": \"plastic\",\n    \"captions\": \"The orange plastic car features a white roof and a distinctive red stripe, showcasing a playful design.\"\n}"
+  },
+  "147": {
+    "category": "luggage",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 357,
+    "top5_categories": [
+      "luggage",
+      "bag with something",
+      "easy chair",
+      "baby seat",
+      "child car seat"
+    ],
+    "caption": "{\n    \"category\": \"luggage\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"black, green\",\n    \"material\": \"fabric\",\n    \"captions\": \"The luggage includes a black fabric piece with wheels and a handle, along with a green fabric piece, both suitable for travel.\"\n}"
+  },
+  "148": {
+    "category": "bed small",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 882,
+    "top5_categories": [
+      "bed small",
+      "car model",
+      "toy",
+      "child car seat",
+      "box with toys"
+    ],
+    "caption": "{\n    \"category\": \"bed small\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"navy blue\",\n    \"material\": \"quilted fabric, metal\",\n    \"captions\": \"The navy blue bed, made of soft quilted material with a metal frame, features a built-in storage compartment.\"\n}"
+  },
+  "150": {
+    "category": "stuffed animal",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 201,
+    "top5_categories": [
+      "stuffed animal",
+      "cuddly toy",
+      "plush toy",
+      "doll",
+      "toy"
+    ],
+    "caption": "{\n    \"category\": \"stuffed animal\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"gray\",\n    \"material\": \"fuzzy fabric\",\n    \"captions\": \"The gray stuffed animal, made of soft fuzzy material, features a long floppy ear and is a cuddly toy in the bedroom.\"\n}"
+  },
+  "151": {
+    "category": "banner",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 1030,
+    "top5_categories": [
+      "banner",
+      "card",
+      "decorative frame",
+      "poster",
+      "wall sign"
+    ],
+    "caption": "{\n    \"category\": \"banner\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"orange, yellow\",\n    \"material\": \"paper\",\n    \"captions\": \"The banners, one orange with a diamond shape and white border, and the others yellow with torn edges and strings, add a decorative touch to the bedroom walls.\"\n}"
+  },
+  "152": {
+    "category": "stack of pillows",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 1180,
+    "top5_categories": [
+      "stack of pillows",
+      "pillow",
+      "stack of blankets",
+      "bedframe",
+      "decorative quilt"
+    ],
+    "caption": "{\n    \"category\": \"stack of pillows\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"white, blue\",\n    \"material\": \"soft fabric\",\n    \"captions\": \"The stack of soft, white pillows features a blue and white striped pattern, adding comfort and style to the bedroom.\"\n}"
+  },
+  "153": {
+    "category": "stand/small table",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 872,
+    "top5_categories": [
+      "stand/small table",
+      "counter desk",
+      "table stand",
+      "exhibition table",
+      "desk"
+    ],
+    "caption": "{\n    \"category\": \"stand/small table\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"light brown\",\n    \"material\": \"wood, metal\",\n    \"captions\": \"The light brown wooden table features a unique metal base with an industrial style, adding character to the bedroom.\"\n}"
+  },
+  "155": {
+    "category": "stack of books / papers",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 1467,
+    "top5_categories": [
+      "stack of books / papers",
+      "box with books",
+      "file binder",
+      "stack of books",
+      "book"
+    ],
+    "caption": "{\n    \"category\": \"stack of books / papers\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"yellow, brown\",\n    \"material\": \"paper\",\n    \"captions\": \"The stack of slightly crumpled books, made of paper and held together with a paperclip, adds a casual touch to the bedroom.\"\n}"
+  },
+  "157": {
+    "category": "cabinet table",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 654,
+    "top5_categories": [
+      "cabinet table",
+      "sideboard",
+      "drawer desk",
+      "desk cabinet",
+      "stand/small table"
+    ],
+    "caption": "{\n    \"category\": \"cabinet table\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"dark brown\",\n    \"material\": \"wood\",\n    \"captions\": \"The dark brown wooden cabinet table features multiple storage compartments and a sliding door, adding functionality and style to the bedroom.\"\n}"
+  },
+  "159": {
+    "category": "bag with something",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 1412,
+    "top5_categories": [
+      "bag with something",
+      "clothes bag",
+      "shoulder bag",
+      "backpack",
+      "bag"
+    ],
+    "caption": "{\n    \"category\": \"bag with something\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"green, brown\",\n    \"material\": \"canvas, leather\",\n    \"captions\": \"The green canvas bag with a brown leather strap features a white button, adding a stylish touch.\"\n}"
+  },
+  "161": {
+    "category": "bed small",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 882,
+    "top5_categories": [
+      "bed small",
+      "partial",
+      "unknown",
+      "unknown/remove",
+      "easy chair"
+    ],
+    "caption": "{\n    \"category\": \"bed small\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"pale blue, navy blue\",\n    \"material\": \"fabric, quilted\",\n    \"captions\": \"The small bed features a navy blue quilted design with a wooden headboard and a storage compartment underneath.\"\n}"
+  },
+  "162": {
+    "category": "stack of books / papers",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 1467,
+    "top5_categories": [
+      "stack of books / papers",
+      "notebooks",
+      "file binder",
+      "book",
+      "stack of papers"
+    ],
+    "caption": "{\n    \"category\": \"stack of books / papers\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"green, brown, yellow\",\n    \"material\": \"paper\",\n    \"captions\": \"The stack of books, made of paper and held together by a yellow paperclip, features a mix of green, brown, and yellow colors.\"\n}"
+  },
+  "164": {
+    "category": "stuffed animal",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 201,
+    "top5_categories": [
+      "stuffed animal",
+      "plush toy",
+      "cuddly toy",
+      "toy",
+      "doll"
+    ],
+    "caption": "{\n    \"category\": \"stuffed animal\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"orange, white\",\n    \"material\": \"fur\",\n    \"captions\": \"The stuffed tiger, made of soft orange and white fur, features a long, fluffy tail and a distinctive black nose.\"\n}"
+  },
+  "165": {
+    "category": "partial",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 1298,
+    "top5_categories": [
+      "partial",
+      "l-shaped sofa",
+      "bedframe",
+      "dresser",
+      "bed cabinet"
+    ],
+    "caption": "{\n    \"category\": \"partial\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"yellow\",\n    \"material\": \"plastic\",\n    \"captions\": \"The yellow plastic toy car with a wheel is a playful addition to the bedroom.\"\n}"
+  },
+  "166": {
+    "category": "decorative lamp",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 804,
+    "top5_categories": [
+      "decorative lamp",
+      "night lamp",
+      "lamp",
+      "lampshade",
+      "decorative lantern"
+    ],
+    "caption": "{\n    \"category\": \"decorative lamp\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"tan, earthy brown\",\n    \"material\": \"metal, fabric\",\n    \"captions\": \"The decorative lamp features a tan shade and a metal base with a unique filigree design, providing a warm and inviting ambiance.\"\n}"
+  },
+  "167": {
+    "category": "bed small",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 882,
+    "top5_categories": [
+      "bed small",
+      "car model",
+      "ship toy",
+      "cake",
+      "toy"
+    ],
+    "caption": "{\n    \"category\": \"bed small\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"dark blue\",\n    \"material\": \"wood\",\n    \"captions\": \"The small bed features a dark blue color, wooden material, and a headboard with a built-in nightlight.\"\n}"
+  },
+  "168": {
+    "category": "bowl of fruit",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 277,
+    "top5_categories": [
+      "bowl of fruit",
+      "decorative bowl",
+      "ball pouffe",
+      "bag with something",
+      "globe"
+    ],
+    "caption": "{\n    \"category\": \"bowl of fruit\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"red, yellow\",\n    \"material\": \"glass, plastic\",\n    \"captions\": \"The bowl of fruit, made of glass with a metal rim, is red and placed on a table, while another fruit is red and plastic with a built-in handle.\"\n}"
+  },
+  "173": {
+    "category": "backpack",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 303,
+    "top5_categories": [
+      "backpack",
+      "clothes bag",
+      "hanging clothes",
+      "jacket",
+      "clothing stand"
+    ],
+    "caption": "{\n    \"category\": \"backpack\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"black, green\",\n    \"material\": \"canvas\",\n    \"captions\": \"The black canvas backpack features a metal buckle and zippered pocket, while another green version has an adjustable padded shoulder strap.\"\n}"
+  },
+  "178": {
+    "category": "bag with something",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 1412,
+    "top5_categories": [
+      "bag with something",
+      "bag with sheets",
+      "decorative plant",
+      "flowerpot",
+      "art/clutter"
+    ],
+    "caption": "{\n    \"category\": \"bag with something\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"green\",\n    \"material\": \"canvas\",\n    \"captions\": \"The green canvas bag with a long, flexible handle is placed in the bedroom.\"\n}"
+  },
+  "180": {
+    "category": "bed cabinet",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 819,
+    "top5_categories": [
+      "bed cabinet",
+      "sideboard",
+      "bedframe",
+      "dresser",
+      "side table"
+    ],
+    "caption": "{\n    \"category\": \"bed cabinet\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"dark brown\",\n    \"material\": \"wood\",\n    \"captions\": \"The dark wood bed cabinet features a sliding door and built-in storage, adding functionality to the bedroom.\"\n}"
+  },
+  "183": {
+    "category": "window /outside",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 601,
+    "top5_categories": [
+      "window /outside",
+      "window",
+      "window frame",
+      "window glass",
+      "window curtain"
+    ],
+    "caption": "{\n    \"category\": \"window /outside\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"white\",\n    \"material\": \"glass, metal\",\n    \"captions\": \"The white window with a glass pane and metal frame features horizontal blinds, adding a bright and airy feel to the bedroom.\"\n}"
+  },
+  "188": {
+    "category": "lower cabinet",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 1172,
+    "top5_categories": [
+      "lower cabinet",
+      "storage cabinet",
+      "sideboard",
+      "cabinet parts",
+      "chest of drawers"
+    ],
+    "caption": "{\n    \"category\": \"lower cabinet\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"brown, white\",\n    \"material\": \"wood\",\n    \"captions\": \"The wooden lower cabinet features a brown color with a sliding door and a built-in drawer, adding functionality to the rec room.\"\n}"
+  },
+  "189": {
+    "category": "lower cabinet",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 1172,
+    "top5_categories": [
+      "lower cabinet",
+      "luggage",
+      "bed small",
+      "bed cabinet",
+      "bunk bed"
+    ],
+    "caption": "{\n    \"category\": \"lower cabinet\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"brown\",\n    \"material\": \"wood\",\n    \"captions\": \"The brown wooden lower cabinet features a built-in drawer, adding functionality to the rec room.\"\n}"
+  },
+  "190": {
+    "category": "cabinet kitchen",
+    "room_cat": "bathroom",
+    "room_id": 3,
+    "category_idx": 1015,
+    "top5_categories": [
+      "cabinet kitchen",
+      "kitchen extractor",
+      "kitchen counter",
+      "counter door",
+      "kitchen cabinet"
+    ],
+    "caption": "{\n    \"category\": \"cabinet kitchen\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden kitchen cabinet features a built-in wine rack, adding functionality and style to the space.\"\n}"
+  },
+  "191": {
+    "category": "shelving",
+    "room_cat": "bathroom",
+    "room_id": 3,
+    "category_idx": 127,
+    "top5_categories": [
+      "shelving",
+      "shelf",
+      "bed ladder",
+      "storage shelving",
+      "high shelf"
+    ],
+    "caption": "{\n    \"category\": \"shelving\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 3,\n    \"color\": \"white, silver\",\n    \"material\": \"metal\",\n    \"captions\": \"The white metal shelving features a built-in lighting system, enhancing functionality and style in the bathroom.\"\n}"
+  },
+  "194": {
+    "category": "counter desk",
+    "room_cat": "bathroom",
+    "room_id": 2,
+    "category_idx": 1314,
+    "top5_categories": [
+      "counter desk",
+      "kitchen counter",
+      "counter",
+      "bathroom counter",
+      "countertop item"
+    ],
+    "caption": "{\n    \"category\": \"counter desk\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"white\",\n    \"material\": \"stone, ceramic\",\n    \"captions\": \"The modern white counter desk features a built-in sink and faucet, made of a stylish stone and ceramic material.\"\n}"
+  },
+  "195": {
+    "category": "cabinet kitchen",
+    "room_cat": "bathroom",
+    "room_id": 2,
+    "category_idx": 1015,
+    "top5_categories": [
+      "cabinet kitchen",
+      "cabinet counter",
+      "kitchen cabinet",
+      "cabinet clutter",
+      "cabinet"
+    ],
+    "caption": "{\n    \"category\": \"cabinet kitchen\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"dark brown\",\n    \"material\": \"wood\",\n    \"captions\": \"The dark wood kitchen cabinet features a rich finish and practical built-in elements, enhancing functionality in the bathroom.\",\n}"
+  },
+  "198": {
+    "category": "doorway",
+    "room_cat": "bathroom",
+    "room_id": 3,
+    "category_idx": 553,
+    "top5_categories": [
+      "doorway",
+      "door frame",
+      "door",
+      "door/window frame",
+      "door/window"
+    ],
+    "caption": "{\n    \"category\": \"doorway\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 3,\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden doorway features a metal handle, adding a clean and functional element to the bathroom.\",\n}"
+  },
+  "200": {
+    "category": "decorative lamp",
+    "room_cat": "bathroom",
+    "room_id": 3,
+    "category_idx": 804,
+    "top5_categories": [
+      "decorative lamp",
+      "light",
+      "decorative lantern",
+      "lighting fixture",
+      "night lamp"
+    ],
+    "caption": "{\n    \"category\": \"decorative lamp\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 3,\n    \"color\": \"white, golden\",\n    \"material\": \"metal, glass\",\n    \"captions\": \"The decorative lamp features a warm golden hue with a round structure, combining metal and glass for a stylish and energy-efficient lighting solution.\"\n}"
+  },
+  "205": {
+    "category": "window frame",
+    "room_cat": "bathroom",
+    "room_id": 3,
+    "category_idx": 15,
+    "top5_categories": [
+      "window frame",
+      "door/window frame",
+      "window /outside",
+      "window",
+      "door window"
+    ],
+    "caption": "{\n    \"category\": \"window frame\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 3,\n    \"color\": \"white\",\n    \"material\": \"wood, metal\",\n    \"captions\": \"The window frame, made of white-painted wood and metal, features a built-in air vent, adding functionality to the bathroom.\",\n}"
+  },
+  "207": {
+    "category": "cabinet table",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 654,
+    "top5_categories": [
+      "cabinet table",
+      "sideboard",
+      "cabinet counter",
+      "bed cabinet",
+      "cabinet kitchen"
+    ],
+    "caption": "{\n    \"category\": \"cabinet table\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden cabinet table features a built-in mirror and offers storage, enhancing functionality in the bedroom.\"\n}"
+  },
+  "208": {
+    "category": "bed",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 30,
+    "top5_categories": [
+      "bed",
+      "bedframe",
+      "bed for pet",
+      "bed stand",
+      "bed comforter"
+    ],
+    "caption": "{\n    \"category\": \"bed\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden bed features a headboard, storage compartment, and built-in reading light, enhancing functionality and style.\"\n}"
+  },
+  "210": {
+    "category": "doorway",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 553,
+    "top5_categories": [
+      "doorway",
+      "door",
+      "door frame",
+      "door/window",
+      "door/window frame"
+    ],
+    "caption": "{\n    \"category\": \"doorway\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden door features a metal handle and a small round silver lock, adding a classic touch to the bedroom.\",\n}"
+  },
+  "211": {
+    "category": "mirror frame",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 202,
+    "top5_categories": [
+      "mirror frame",
+      "bathroom window",
+      "window frame",
+      "window",
+      "mirror"
+    ],
+    "caption": "{\n    \"category\": \"mirror frame\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"white\",\n    \"material\": \"wood, metal\",\n    \"captions\": \"The white wooden mirror frame features a simple design with a small ornate metal piece at the top, adding elegance to the bedroom.\",\n}"
+  },
+  "212": {
+    "category": "doll",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 447,
+    "top5_categories": [
+      "doll",
+      "unknown",
+      "figurine",
+      "mannequin",
+      "bed small"
+    ],
+    "caption": "{\n    \"category\": \"doll\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"brown\",\n    \"material\": \"fabric\",\n    \"captions\": \"The brown fabric doll with long braided hair sits on the bed, adding a playful touch to the bedroom.\"\n}"
+  },
+  "213": {
+    "category": "pillow",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 4,
+    "top5_categories": [
+      "pillow",
+      "stack of pillows",
+      "duvet",
+      "dog bed",
+      "stack of blankets"
+    ],
+    "caption": "{\n    \"category\": \"pillow\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"light gray, white\",\n    \"material\": \"soft, fluffy fabric\",\n    \"captions\": \"The light gray pillow, soft and fluffy with a few creases, features an intricate pattern, while another white pillow has a delicate golden-tinged border.\"\n}"
+  },
+  "215": {
+    "category": "blinds",
+    "room_cat": null,
+    "room_id": null,
+    "category_idx": 58,
+    "top5_categories": [
+      "blinds",
+      "window shade",
+      "window curtain",
+      "air conditioning",
+      "window valence"
+    ],
+    "caption": "{\n    \"category\": \"blinds\",\n    \"room_cat\": null,\n    \"room_id\": null,\n    \"color\": \"red\",\n    \"material\": \"fabric\",\n    \"captions\": \"The red fabric blind features a cordless operation, adding a modern touch to window treatments.\"\n}"
+  },
+  "216": {
+    "category": "box with books",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 249,
+    "top5_categories": [
+      "box with books",
+      "book",
+      "pile of magazines",
+      "stack of books / papers",
+      "notebooks"
+    ],
+    "caption": "{\n    \"category\": \"box with books\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"red, white, brown\",\n    \"material\": \"paper, wood\",\n    \"captions\": \"The box with books features a red and white patterned paper cover and a small horse figurine on top, adding a decorative touch.\"\n}"
+  },
+  "217": {
+    "category": "faucet",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 89,
+    "top5_categories": [
+      "faucet",
+      "basin faucet",
+      "washbasin",
+      "decorative lamp",
+      "toilet"
+    ],
+    "caption": "{\n    \"category\": \"faucet\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"white, gold\",\n    \"material\": \"metal, brass\",\n    \"captions\": \"The faucet features a white metal design with a built-in water-temperature control and a long, curved handle, while another variant is a gold brass faucet with a single handle.\"\n}"
+  },
+  "218": {
+    "category": "book",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 13,
+    "top5_categories": [
+      "book",
+      "box with books",
+      "notebook",
+      "album",
+      "binder"
+    ],
+    "caption": "{\n    \"category\": \"book\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"black\",\n    \"material\": \"paper\",\n    \"captions\": \"The black book with a paper cover features a white title and a gold-embossed design, adding a touch of elegance to the bedroom.\"\n}"
+  },
+  "219": {
+    "category": "book",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 13,
+    "top5_categories": [
+      "book",
+      "notebook",
+      "album",
+      "binder",
+      "box with books"
+    ],
+    "caption": "{\n    \"category\": \"book\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"yellow\",\n    \"material\": \"paper\",\n    \"captions\": \"The yellow book made of paper features a dog on its cover and includes a bookmark, adding a personal touch.\"\n}"
+  },
+  "220": {
+    "category": "sideboard",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 577,
+    "top5_categories": [
+      "sideboard",
+      "cabinet table",
+      "bed cabinet",
+      "chest of drawers",
+      "dresser"
+    ],
+    "caption": "{\n    \"category\": \"sideboard\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"brown, dark wood\",\n    \"material\": \"wood\",\n    \"captions\": \"The wooden sideboard, featuring a brown color and built-in storage compartments, adds functionality and style to the bedroom.\"\n}"
+  },
+  "221": {
+    "category": "ragdoll cat",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 1534,
+    "top5_categories": [
+      "ragdoll cat",
+      "unknown",
+      "cat",
+      "ragdoll",
+      "lighter"
+    ],
+    "caption": "{\n    \"category\": \"ragdoll cat\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"white\",\n    \"material\": \"fur\",\n    \"captions\": \"The fluffy white ragdoll cat, with a long tail and wearing a collar, adds charm to the bedroom.\"\n}"
+  },
+  "222": {
+    "category": "shelf",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 17,
+    "top5_categories": [
+      "shelf",
+      "high shelf",
+      "shelving",
+      "shelf with clutter",
+      "wall shelf"
+    ],
+    "caption": "{\n    \"category\": \"shelf\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"white\",\n    \"material\": \"wood, metal\",\n    \"captions\": \"The white shelf, made of wood with a hanging feature, is designed to be suspended from the wall, adding functionality and style to the bedroom.\"\n}"
+  },
+  "223": {
+    "category": "box with jewelry",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 1436,
+    "top5_categories": [
+      "box with jewelry",
+      "box with tea",
+      "microwave",
+      "product box",
+      "box of something"
+    ],
+    "caption": "{\n    \"category\": \"box with jewelry\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"gold, silver\",\n    \"material\": \"metal\",\n    \"captions\": \"The jewelry box, made of metal with a gold finish and a lock, adds a touch of elegance to the bedroom.\"\n}"
+  },
+  "225": {
+    "category": "decorative lamp",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 804,
+    "top5_categories": [
+      "decorative lamp",
+      "night lamp",
+      "light",
+      "decorative lantern",
+      "lighting fixture"
+    ],
+    "caption": "{\n    \"category\": \"decorative lamp\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"gold, white\",\n    \"material\": \"metal\",\n    \"captions\": \"The decorative lamp features a unique design with a gold finish and a curved shape, adding elegance to the bedroom.\"\n}"
+  },
+  "230": {
+    "category": "curtain",
+    "room_cat": null,
+    "room_id": null,
+    "category_idx": 20,
+    "top5_categories": [
+      "curtain",
+      "bed curtain",
+      "window curtain",
+      "curtain rail",
+      "curtain bar"
+    ],
+    "caption": "{\n    \"category\": \"curtain\",\n    \"room_cat\": null,\n    \"room_id\": null,\n    \"color\": \"red\",\n    \"material\": \"fabric\",\n    \"captions\": \"The red fabric curtain features a vallet, adding a decorative touch.\",\n}"
+  },
+  "242": {
+    "category": "stack of papers",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 117,
+    "top5_categories": [
+      "stack of papers",
+      "paper",
+      "brochure",
+      "bag with sheets",
+      "papers"
+    ],
+    "caption": "{\n    \"category\": \"stack of papers\",\n    \"room_cat\": \"bedroom\",\n    \"color\": \"white\",\n    \"material\": \"paper\",\n    \"captions\": \"The stack of white papers, crumpled and creased, is placed in the bedroom.\"\n}"
+  },
+  "248": {
+    "category": "mirror frame",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 202,
+    "top5_categories": [
+      "mirror frame",
+      "mirror",
+      "mirror door",
+      "bathroom window",
+      "cabinet mirror"
+    ],
+    "caption": "{\n    \"category\": \"mirror frame\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"white\",\n    \"material\": \"wood, metal\",\n    \"captions\": \"The white wooden mirror frame features intricate metalwork, adding a decorative touch to the bedroom.\"\n}"
+  },
+  "249": {
+    "category": "window /outside",
+    "room_cat": null,
+    "room_id": null,
+    "category_idx": 601,
+    "top5_categories": [
+      "window /outside",
+      "window",
+      "window frame",
+      "window curtain",
+      "bathroom window"
+    ],
+    "caption": "{\n    \"category\": \"window /outside\",\n    \"room_cat\": null,\n    \"room_id\": null,\n    \"color\": \"white\",\n    \"material\": \"glass\",\n    \"captions\": \"The white glass window features a blind, adding a functional and aesthetic element to the exterior view.\"\n}"
+  },
+  "253": {
+    "category": "counter desk",
+    "room_cat": "bedroom",
+    "room_id": 6,
+    "category_idx": 1314,
+    "top5_categories": [
+      "counter desk",
+      "bathroom counter",
+      "counter door",
+      "counter",
+      "countertop item"
+    ],
+    "caption": "{\n    \"category\": \"counter desk\",\n    \"room_cat\": \"bedroom\",\n    \"room_id\": 6,\n    \"color\": \"white\",\n    \"material\": \"high-gloss material\",\n    \"captions\": \"The high-gloss white counter desk features built-in USB and power outlets, adding functionality to the bedroom.\"\n}"
+  },
+  "254": {
+    "category": "doorway",
+    "room_cat": "bathroom",
+    "room_id": 3,
+    "category_idx": 553,
+    "top5_categories": [
+      "doorway",
+      "door",
+      "door frame",
+      "door/window",
+      "door/window frame"
+    ],
+    "caption": "{\n    \"category\": \"doorway\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 3,\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden doorway features a metal handle and a small round door-knocker, adding a classic touch to the bathroom.\",\n}"
+  },
+  "256": {
+    "category": "dresser",
+    "room_cat": "bathroom",
+    "room_id": 2,
+    "category_idx": 98,
+    "top5_categories": [
+      "dresser",
+      "side table",
+      "chest of drawers",
+      "end table",
+      "wall tv"
+    ],
+    "caption": "{\n    \"category\": \"dresser\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"dark wood\",\n    \"material\": \"wood\",\n    \"captions\": \"The sturdy dark wooden dresser features a drawer and a shelf, adding functionality to the bathroom.\"\n}"
+  },
+  "259": {
+    "category": "partial",
+    "room_cat": "bathroom",
+    "room_id": 2,
+    "category_idx": 1298,
+    "top5_categories": [
+      "partial",
+      "refrigerator",
+      "counter door",
+      "refrigerator cabinet",
+      "door"
+    ],
+    "caption": "{\n    \"category\": \"partial\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 2,\n    \"color\": \"white\",\n    \"material\": \"smooth, non-reflective material\",\n    \"captions\": \"The partial object is a white, linelike item with a slight curve, made of a smooth material.\"\n}"
+  },
+  "260": {
+    "category": "washbasin counter",
+    "room_cat": "bathroom",
+    "room_id": 2,
+    "category_idx": 522,
+    "top5_categories": [
+      "washbasin counter",
+      "sink tap",
+      "sink",
+      "washbasin",
+      "sink/basin"
+    ],
+    "caption": "{\n    \"category\": \"washbasin counter\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"white\",\n    \"material\": \"ceramic, marble\",\n    \"captions\": \"The washbasin counter, featuring a built-in sink, is primarily white and made of ceramic or marble, adding elegance to the bathroom.\"\n}"
+  },
+  "261": {
+    "category": "toilet",
+    "room_cat": "bathroom",
+    "room_id": 2,
+    "category_idx": 35,
+    "top5_categories": [
+      "toilet",
+      "toilet seat",
+      "flush",
+      "plumbing",
+      "flush push"
+    ],
+    "caption": "{\n    \"category\": \"toilet\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"white\",\n    \"material\": \"ceramic, porcelain\",\n    \"captions\": \"The white toilet, made of ceramic and porcelain, features a built-in bidirectional flushing system, adding functionality to the bathroom.\"\n}"
+  },
+  "263": {
+    "category": "sink pipe",
+    "room_cat": "bathroom",
+    "room_id": 2,
+    "category_idx": 711,
+    "top5_categories": [
+      "sink pipe",
+      "sink tap",
+      "sink",
+      "bath sink",
+      "partial"
+    ],
+    "caption": "{\n    \"category\": \"sink pipe\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"silver\",\n    \"material\": \"metal\",\n    \"captions\": \"The silver metal sink pipe features built-in water-temperature control, adding functionality to the bathroom.\"\n}"
+  },
+  "265": {
+    "category": "door frame",
+    "room_cat": null,
+    "room_id": null,
+    "category_idx": 7,
+    "top5_categories": [
+      "door frame",
+      "doorway",
+      "door/window frame",
+      "door",
+      "door/window"
+    ],
+    "caption": "{\n    \"category\": \"door frame\",\n    \"room_cat\": null,\n    \"room_id\": null,\n    \"color\": \"white\",\n    \"material\": \"metal, wood-like material\",\n    \"captions\": \"The door frame, made of white metal with a slight curve, features a small round glass panel and a metal knob.\"\n}"
+  },
+  "266": {
+    "category": "bag with something",
+    "room_cat": "bathroom",
+    "room_id": 2,
+    "category_idx": 1412,
+    "top5_categories": [
+      "bag with something",
+      "clothes bag",
+      "bag",
+      "toiletry bag",
+      "package"
+    ],
+    "caption": "{\n    \"category\": \"bag with something\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 2,\n    \"color\": \"white, orange, blue\",\n    \"material\": \"fabric\",\n    \"captions\": \"The bag, made of fabric and featuring a handle, comes in various colors including white, orange, and blue, suitable for bathroom use.\"\n}"
+  },
+  "268": {
+    "category": "window",
+    "room_cat": null,
+    "room_id": null,
+    "category_idx": 9,
+    "top5_categories": [
+      "window",
+      "window frame",
+      "window /outside",
+      "bathroom window",
+      "screen"
+    ],
+    "caption": "{\n    \"category\": \"window\",\n    \"room_cat\": null,\n    \"room_id\": null,\n    \"color\": \"white\",\n    \"material\": \"glass, metal\",\n    \"captions\": \"The white window features a glass pane and a white frame, with a narrow sill, adding brightness to the space.\"\n}"
+  },
+  "269": {
+    "category": "bowl of fruit",
+    "room_cat": "bathroom",
+    "room_id": 2,
+    "category_idx": 277,
+    "top5_categories": [
+      "bowl of fruit",
+      "basket of fruits",
+      "bowl of fruits",
+      "blanket basket",
+      "basket of something"
+    ],
+    "caption": "{\n    \"category\": \"bowl of fruit\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"yellow\",\n    \"material\": \"ceramic\",\n    \"captions\": \"The yellow ceramic bowl of fruit, featuring a handle, is placed on a table in the bathroom.\"\n}"
+  },
+  "273": {
+    "category": "curtain",
+    "room_cat": "bathroom",
+    "room_id": 2,
+    "category_idx": 20,
+    "top5_categories": [
+      "curtain",
+      "bed curtain",
+      "curtain valence",
+      "curtain bar",
+      "shower curtain"
+    ],
+    "caption": "{\n    \"category\": \"curtain\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"white\",\n    \"material\": \"lightweight, semi-transparent\",\n    \"captions\": \"The white curtain, made of lightweight semi-transparent material, features a subtle woven pattern and can be easily opened and closed with a metal rod.\"\n}"
+  },
+  "275": {
+    "category": "set of towels",
+    "room_cat": "bathroom",
+    "room_id": 2,
+    "category_idx": 1119,
+    "top5_categories": [
+      "set of towels",
+      "bath towel",
+      "bath towels",
+      "hand towel",
+      "bathroom towel"
+    ],
+    "caption": "{\n    \"category\": \"set of towels\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 2,\n    \"color\": \"white\",\n    \"material\": \"cotton\",\n    \"captions\": \"The set of white cotton towels features a brown leather strap and a red woven strip, adding a touch of style to the bathroom.\"\n}"
+  },
+  "279": {
+    "category": "partial",
+    "room_cat": "bathroom",
+    "room_id": 2,
+    "category_idx": 1298,
+    "top5_categories": [
+      "partial",
+      "toilet seat",
+      "toilet",
+      "lower cabinet",
+      "counter door"
+    ],
+    "caption": "{\n    \"category\": \"partial\",\n    \"room_cat\": \"bathroom\",\n    \"room_id\": 2,\n    \"color\": \"blue, white\",\n    \"material\": \"drywall, plastic, porcelain\",\n    \"captions\": \"The bathroom features a blue drywall wall with a slight crack, alongside a white porcelain toilet with a silver handle.\"\n}"
+  },
+  "280": {
+    "category": "doorway",
+    "room_cat": "bathroom",
+    "room_id": 3,
+    "category_idx": 553,
+    "top5_categories": [
+      "doorway",
+      "door frame",
+      "door/window frame",
+      "door",
+      "door/window"
+    ],
+    "caption": "{\n    \"category\": \"doorway\",\n    \"room_cat\": \"bathroom\",\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden door with a metal handle serves as the entrance to the bathroom.\"\n}"
+  },
+  "282": {
+    "category": "doorway",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 553,
+    "top5_categories": [
+      "doorway",
+      "door frame",
+      "door",
+      "door/window",
+      "door/window frame"
+    ],
+    "caption": "{\n    \"category\": \"doorway\",\n    \"room_cat\": \"rec room\",\n    \"room_id\": 1,\n    \"color\": \"white\",\n    \"material\": \"wood\",\n    \"captions\": \"The white wooden doorway features a gold handle and a small round keyhole, adding a classic touch to the rec room.\"\n}"
+  },
+  "284": {
+    "category": "bottom of stairs",
+    "room_cat": "rec room",
+    "room_id": 1,
+    "category_idx": 1040,
+    "top5_categories": [
+      "bottom of stairs",
+      "stairs",
+      "stair step",
+      "stair",
+      "staircase"
+    ],
+    "caption": "{\n    \"category\": \"bottom of stairs\",\n    \"room_cat\": \"rec room\",\n    \"color\": \"dark brown\",\n    \"material\": \"wood\",\n    \"captions\": \"The bottom of the stairs, made of dark wood, provides a rich and inviting entrance to the rec room.\"\n}"
+  }
+}
