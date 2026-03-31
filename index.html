@@ -133,13 +133,6 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="static/pdfs/PARAM.pdf" target="_blank"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
-                  <span>Supplementary</span>
-                </a>
-              </span>
-              <span class="link-block">
                 <a href="https://github.com/YOUR_REPO" target="_blank"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon"><i class="fab fa-github"></i></span>
@@ -502,6 +495,40 @@
     <div class="columns is-centered has-text-centered">
       <div class="column"><h2 class="title is-3">Hyperparameters</h2></div>
     </div>
+
+    <!-- Table 1: Map Construction -->
+    <p class="table-label" style="margin-bottom: 0.5rem;">Map Construction</p>
+    <div class="table-wrap">
+      <table class="hp-table">
+        <thead>
+          <tr>
+            <th>cs</th>
+            <th>gs</th>
+            <th>depth_sample_rate</th>
+            <th>skip_frames</th>
+            <th>min_depth</th>
+            <th>max_depth</th>
+            <th>camera_height</th>
+            <th>feat_dim</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="fixed">0.025</td>
+            <td class="fixed">2000</td>
+            <td class="fixed">1</td>
+            <td class="fixed">1</td>
+            <td class="fixed">0.1</td>
+            <td class="fixed">3.0</td>
+            <td class="fixed">2.0</td>
+            <td class="fixed">512</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Table 2: Instance Association & MTEFR -->
+    <p class="table-label" style="margin: 1.5rem 0 0.5rem;">Instance Association &amp; MTEFR Fusion</p>
     <div class="table-wrap">
       <table class="hp-table">
         <thead>
@@ -529,6 +556,7 @@
         </tbody>
       </table>
     </div>
+
   </div>
 </section>
 
